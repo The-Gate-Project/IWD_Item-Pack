@@ -1,0 +1,297 @@
+@1=~Talizman Czarnego Wilka~
+@2=~Amulet~
+@3=~Jest to p³aski kamieñ z niedbale wymalowan¹ ³ap¹ zwierzêcia.~
+@4=~Talizman Czarnego Wilka~
+@5=~Ten toporny talizman wydaje siê byæ tylko p³askim kamieniem z wymalowan¹ ³ap¹ wilka. Pomimo swego zwyk³ego wygl¹du, Talizman Czarnego Wilka ma silne w³aœciwoœci magiczne.
+
+PARAMETRY:
+
+Specjalne: +10 do maksymalnych punktów ¿ycia
+ +1 do Klasy Pancerza 
+ +10% do odpornoœci na ch³ód 
+ +1 do rzutów obronnych przeciw zioniêciom
+Waga: 1~
+@6=~£añcuch Furii Drakkasa~
+@7=~Kolczuga~
+@8=~Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Waga: 40
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@9=~£añcuch Furii Drakkasa~
+@10=~Drakkas Ranul by³ samotnym ksiê¿ycowym elfem bardzo ³atwo popadaj¹cym w konflikty. W bardzo m³odym wieku zosta³ porwany przez grupê drowów, a nastêpnie przygotowywany do uczestnictwa w walkach gladiatorów. Pocz¹tkowo toczy³ walki z innymi ofiarami uprowadzeñ, ale z czasem wszyscy jego towarzysze niedoli zmarli z powodu poniesionych ran i fatalnego traktowania. Dlatego te¿ zmuszony by³ walczyæ z potworami wybranymi do tego celu przez drowów. Jednak Drakkas nie poddawa³ siê, postanowi³ przetrwaæ, a przy ¿yciu utrzymywa³a go coraz wiêksza nienawiœæ do przeœladowców oraz nadzieja na ucieczkê i zemstê na porywaczach.
+
+Wreszcie, pewnego dnia jego marzenie spe³ni³o siê. Uda³o mu siê wykraœæ stra¿nikowi klucz do celi i po cichu wymkn¹æ siê do okrutnego Podmroku. Po drodze zdoby³ kilka sejmitarów, które bardzo przyda³y mu siê, gdy przemierza³ krête œcie¿ki Podmroku. Gdy tylko wydosta³ siê na powierzchniê, natychmiast ruszy³ na poszukiwanie pozosta³ych elfów ksiê¿ycowych.
+
+Niestety, gdy odnalaz³ swoich krewnych, ci nie chcieli mieæ z nim nic wspólnego gdy¿ przerazi³y ich potworne blizny Drakkasa wyniesione z wielu walk. Roz¿alony i odrzucony Drakkas postawi³ sobie za cel ¿ycia dokonanie jak najbardziej dotkliwej zemsty na swoich porywaczach. Rozpocz¹³ wiêc naukê ciemnej magii oraz dalej szkoli³ siê we w³adaniu ró¿nymi rodzajami broni. Kiedy uzna³, ¿e jest ju¿ gotowy, zacz¹³ pracowaæ jako ¿o³nierz najemny zarabiaj¹c pieni¹dze na zakup odpowiedniego ekwipunku. Na jednej rzeczy zale¿a³o mu najbardziej, by³a to lekka kolczuga, która nie przeszkadza³aby w rzucaniu zaklêæ. W koñcu poszczêœci³o mu siê i trafi³ na krasnoludzkiego p³atnerza, który by³ w stanie sprostaæ jego wymaganiom. Wkrótce zbroja by³a gotowa i Drakkas móg³ rozpocz¹æ swoj¹ zemstê.Niestety nie pokaza³ siê wiêcej na oczy ludziom, którzy go znali i wynajmowali jako najemnika. 
+
+Wszed³ do Podmroku i od tego czasu wieœæ o nim zaginê³a. Jednak jego niezwyk³a zbroja w jakiœ sposób wydosta³a siê na powierzchniê. Nikt nie wie jak to siê sta³o, lecz niektórzy twierdz¹, ¿e powrót kolczugi Drakkasa z Podmroku by³ swego rodzaju wiadomoœci¹ od drowów. Wiadomoœci¹, któr¹ ka¿dy mo¿e interpretowaæ na swój sposób.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Waga: 30
+Wymagana si³a: 8
+Specjalne: Rzucanie zaklêæ oraz zdolnoœci z³odziejskie pozostaj¹ bez punktów karnych za noszenie zbroi Premia do ataku: +3 Szybkoœæ: dodatkowy atak w czasie jednej rundy
+Nie mo¿e u¿ywaæ:
+ Druid~
+@11=~Insygnia Domu Despana~
+@12=~Amulet~
+@13=~Naszyjniki to ozdobna, metalowa bi¿uteria, zwykle wykonana ze srebra, z³ota, platyny lub innych szlachetnych metali, i ozdobiona klejnotami. Naszyjnik noszony jest na szyi i mo¿e mieæ dowoln¹ d³ugoœæ.Waga: 1~
+@14=~Insygnia Domu Despana~
+@15=~W górnej czêœci tego ma³ego amuletu z obsydianu i adamantytu znajduje siê metalowe kó³ko, przez które przewleczono fioletowo-ró¿ow¹ wst¹¿kê. Wypuk³a powierzchnia amuletu zawiera glif Rodu Despana z³o¿ony ze strza³y i szeœcioboku. Malavon Despana wykona³ ten amulet dla swego brata, Ilmryna. Wed³ug legend, gdy Malavon i jego sprzymierzeñcy w koœciele Vhaerauna zaatakowali matriarchat Lolth, musia³ stawiæ czo³a swemu bratu, wówczas Zbrojmistrzowi Rodu Despana, w zaciêtej walce. Gdy tylko Ilmryn zdoby³ przewagê, Malavon wypowiedzia³ tajemne s³owo, które wywo³a³o nieznan¹ moc zaklêt¹ w amulecie. Ilmryn zosta³ otoczony magiczn¹ barier¹ chroni¹c¹ go od krzywdy. Poniewa¿ by³ to pozornie dobroczynny efekt magiczny, naturalna odpornoœæ Ilmryna na magiê nie pomog³a mu oprzeæ siê mocy amuletu. Gdy Zbrojmistrz wydosta³ siê z ochraniaj¹cej go bariery, stan¹³ twarz¹ w twarz z kilkunastoma najpotê¿niejszymi tanar'ri, jakich kiedykolwiek widzia³. Umar³ z krzykiem na ustach, przeklinaj¹c imiê swego brata.
+
+PARAMETRY:
+
+Mo¿e raz dziennie rzuciæ zaklêcie Rozmycie
+Mo¿e raz dziennie rzuciæ zaklêcie Kwasowa Strza³a Melfa
+Mo¿e raz dziennie rzuciæ zaklêcie Nienaruszalna Sfera Otiluke'a
+Waga: 1~
+@16=~Rozmycie~
+@17=~Kwasowa Strza³a Melfa~
+@18=~Nienaruszalna Sfera Otiluke'a~
+@19=~Roz³upywacz Bary³ek z Brodu Shaengarne~
+@20=~Zniszczony topór~
+@21=~Najpowszechniej u¿ywany rodzaj topora bojowego sk³ada siê ze styliska o d³ugoœci metra do pó³tora i osadzonego na nim szerokiego, pó³okr¹g³ego ostrza. Istnieje wiele rodzajów tego typu broni. Topory bojowe nazywane s¹ równie¿ szerokimi.~
+@22=~Roz³upywacz Bary³ek z Brodu Shaengarne~
+@23=~Ten wygl¹daj¹cy na zu¿yty topór pochodzi z Brodu Shaengarne, niewielkiej osady drwali nad rzek¹ Shaengarne, na po³udniowy zachód od Targos. Chocia¿ wygl¹da groŸnie, s³u¿y³ raczej do rozbijania bary³ek i r¹bania drewna ni¿ do walki, wygl¹da te¿ na to, ¿e od jego ostrza pad³o wiele drzew.
+
+Roz³upywacz Bary³ek zosta³ najpewniej sprzedany Sk³adom Kupieckim Gallawaya w zamian za ¿ywnoœæ i dostawy dla Brodu Shaengarne. Z uwagi na ogromne rozmiary i wagê topora, nie mo¿na pos³ugiwaæ siê nim z tak¹ szybkoœci¹, jak konwencjonalnym toporkiem, jednak na jego stylisku wyryto zaklêcia Mniejszego Zranienia i Wiecznej Ostroœci, dziêki czemu z ³atwoœci¹ roz³upuje bary³ki i goblinów.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 + 3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne: +1 do Si³y 
+	   Niszczy Konstrukty
+Waga: 9
+OpóŸnienie: 8
+Rodzaj bieg³oœci: topory
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+	Druid 
+	Kap³an 
+	Mag 
+	Z³odziej~
+@24=~Pe³na zbroja p³ytowa Kresselack'a~
+@25=~Pe³na zbroja p³ytowa~
+@26=~Najlepsza (i najciê¿sza) zbroja, jak¹ wojownik mo¿e zdobyæ - zarówno pod wzglêdem wygl¹du, jak i ochrony, któr¹ zapewnia. Jej znakomicie dopasowane, po³¹czone elementy z litego metalu s¹ specjalnie modelowane, by jak najlepiej odbija³y tak uderzenia broni ró¿nego typu, jak i strza³y. Zwykle zbroja tego rodzaju jest bogato zdobiona - artystycznie grawerowana i upiêkszana ró¿nymi dodatkami.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Waga: 70
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@27=~Pe³na zbroja p³ytowa Kresselack'a~
+@28=~Ta czarna zbroja p³ytowa nale¿a³a kiedyœ do króla barbarzyñców "Czarnego Wilka" Kresselacka. Po œmierci Kresselacka zosta³a ona z³o¿ona do trumny razem z jego cia³em. Jednakowó¿ duch Czarnego Wilka zosta³ pokarany za swoje czyny i nie zazna³ spokoju po œmierci. Kilka lat po Czasach K³opotów wêdrujacy kap³an Kelemvora uwolni³ go od wiecznej tu³aczki. Jednak jakieœ resztki duszy Kresselacka pozosta³y na tym œwiecie i po³¹czy³y siê ze zbroja nadaj¹c jej nowe w³aœciwoœci. 
+
+Zbroja zosta³a szybko z³upiona, gdy wieœæ o wypêdzeniu ducha z krypty rozesz³a siê po okolicznych osadach.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+Specjalne:
+	+20% do odpornoœci na zimno
+	Odpornoœæ na wyssanie poziomów
+Waga: 70
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@29=~Peleryna Nadci¹gaj¹cej Burzy~
+@30=~Wytarta Szata~
+@31=~Lysan prawdopodobnie zostawi³a tê wytart¹ szatê, kiedy uda³a siê z pielgrzymk¹ do Doliny Cieni. Jako kap³anka Auril, najprawdopodobniej nie potrzebowa³a jej w czasie podró¿y poprzez œniegi.~
+@32=~Peleryna Nadci¹gaj¹cej Burzy~
+@33=~Ta na pierwszy rzut oka wytarta szata zosta³a "uœpiona" przez Lysan, która nie chcia³a, ¿eby ktoœ rozpozna³ j¹ jako kap³ankê Auril. Wystarczy jednak, ¿e spadnie na ni¹ jeden p³atek œniegu, a przeistoczy siê w iskrz¹cy, bia³y p³aszcz, który umo¿liwi temu, kto go nosi, unoszenie siê ponad zaspami œnie¿nymi i przechodzenie przez nawet najbardziej rw¹ce i lodowate rzeki. 
+
+Wiêkszoœæ kupców nie bêdzie chcia³a go odkupiæ, a jeœli tak, to za bardzo nisk¹ cenê, poniewa¿ uwa¿aj¹ oni, ¿e to przedmiot poœwiêcony Auril, Lodowej Pannie, i prawdopodobnie mo¿e przyci¹gaæ jej czcicieli... oraz œci¹gaæ na w³aœciciela niezadowolenie bogini.Stworzona w czasie obrzêdów Nadchodz¹cych Burz (pocz¹tek zimy), odprawianych ku czci Auril, szata ta zosta³a obdarzona odpornoœci¹ na p³omienie, dziêki czemu pozwala temu, kto j¹ nosi, na ich powstrzymywanie. Choæ kap³anki Auril s¹ z natury odporne na zimno i potrafi¹ poruszaæ siê po œniegu i przebywaæ lodowato zimne rzeki, szaty takie stanowi¹ dodatkow¹ ochronê przed zimnem (co pozwala nosz¹cemu, który by³ ju¿ wczeœniej odporny na zimno, na absorbowanie jego energii). W rezultacie osoba ubrana w tak¹ szatê mo¿e nawet poch³aniaæ gor¹co z ataków ogniowych. Oprócz tego szatê tê mo¿na kilka razy dodatkowo obdarzyæ moc¹, dziêki której osoba j¹ nosz¹ca bêdzie mog³a pokonaæ jak¹kolwiek przeszkodê, która j¹ mia³a zatrzymaæ, tak¹ jak zaklêcie Pajêczyna, parali¿ ghuli, zaklêcie Unieruchomienie osoby itp.
+
+PARAMETRY:
+Specjalne: Mo¿e rzucaæ zaklêcie Swoboda dzia³ania (3 ³adunki) 
+ +1 do Klasy Pancerza 
+ +1 do rzutów obronnych przeciwko parali¿owi 
+ +30% do odpornoœci na ch³ód 
+ +30% do odpornoœci na ogieñ
+Waga: 1
+Nie mo¿e u¿ywaæ:~
+@34=~Swoboda dzia³ania~
+@35=~Korbacz Czaszki~
+@36=~Cep bojowy~
+@37=~Cep bojowy sk³ada siê z solidnego drzewca, s³u¿¹cego za uchwyt, do którego przymocowany jest b¹dŸ gruby metalowy prêt, b¹dŸ nabijany ostrymi kawa³kami metalu lub kamieni dr¹g, lub te¿ ¿elazna kula ze szpikulcami. Te dwa elementy ³¹czono zwykle krótkim ³añcuchem lub mocnymi rzemieniami. Broñ ta wywodzi siê od cepów u¿ywanych do m³ócenia zbo¿a.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+Typ obra¿eñ: obuchowe
+Waga: 15
+OpóŸnienie: 7
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ broni: 1-rêczna
+Wymagana si³a: 13
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@38=~Korbacz Czaszki~
+@39=~Korbacz czaszki, bardziej znany jako "Zêbaty Korbacz", powsta³ w 1035 roku KD. Wykonano go specjalnie dla wielkiego barbarzyñskiego wojownika o imieniu Wychgar. Podczas bitwy na pó³nocnych pustkowiach, znanych jako Œwiête Przejœcie, Wychgar straci³ trzech braci, zabitych przez hordy orków pod dowództwem Kraaga Potê¿nego. Wychgar oszala³ z rozpaczy, a kiedy zapad³a noc, poszed³ na pole bitwy i zacz¹³ szukaæ ich cia³, by sprawiæ im godny pochówek. Kiedy odnalaz³ trupy, nawiedzi³y go duchy trzech braci, uwiêzione pomiêdzy œwiatami ¿yj¹cych, a zmar³ych. Wychgar nie by³ w stanie im pomóc, wiêc kaza³ szamanowi zamkn¹æ ich dusze w korbaczu.
+
+Trzy kule tego korbacza, przymocowane do trzonka srebrnymi ³añcuchami, zrobiono ze szczerz¹cych w szaleñczym grymasie zêby czaszek braci Wychgara. Barbarzyñcy powiadaj¹, ¿e w ten sposób bracia ciesz¹ siê z nowo darowanego ¿ycia. Podczas walki, czaszki gryz¹ ofiarê, rozdzieraj¹c jej cia³o.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 + 5 i +1k4 obra¿eñ k³utych od ugryzieñ czaszek
+TraK0: +4
+Typ obra¿eñ: obuchowe
+Specjalne: 10% szans na zadanie dodatkowych 1k6 obra¿eñ k³utych
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ broni: 1-rêczna
+Wymagana si³a: 13
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@40=~W³ócznia z Bia³ego Jesionu~
+@41=~W³ócznia~
+@42=~W³ócznia to jeden z najwczeœniejszych rodzajów broni, którymi zacz¹³ pos³ugiwaæ siê cz³owiek. Pierwsze egzemplarze tej broni by³y wykonane z drewna i zaostrzone na koñcu. Kiedy cz³owiek nauczy³ siê wytapiaæ metale, groty w³óczni by³y wytwarzane z ¿elaza i stali. W pewnym momencie zaczêto eksperymentowaæ z ró¿nymi typami grotów; w ten sposób powsta³y ró¿ne typy broni drzewcowej.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: k³ute
+Waga: 5
+OpóŸnienie: 6
+Rodzaj bieg³oœci: w³ócznie
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ: 
+	Kap³an 
+	Mag 
+	Z³odziej~
+@43=~W³ócznia z Bia³ego Jesionu~
+@44=~Ta w³ócznia, poœwiêcona przez malaryckich kap³anów setki lat temu, by³a u¿ywana w czasie Wielkich £owów, kiedy przygotowywali oni swoje krwawe uczty. Ostatnio znajdowa³a siê ona w rêkach Starego £owcy Wellina, który podobno zgin¹³ w czasie polowania na driady w pobli¿u Kniei Otulisko. Broñ tê wykonano z jednego kawa³ka jesionu zakoñczonego potê¿nym grotem.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 + 3
+TraK0: +3
+Typ obra¿eñ: k³ute
+Specjalne: 5% szansa na dodatkowe 1K6 obra¿eñ od kolców na grocie
+Waga: 2
+OpóŸnienie: 3
+Rodzaj bieg³oœci: w³ócznie
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ: 
+	Kap³an 
+	Mag 
+	Z³odziej~
+@45=~Dwanaœcie Kroków~
+@46=~W³ócznia~
+@47=~W³ócznia to jeden z najwczeœniejszych rodzajów broni, którymi zacz¹³ pos³ugiwaæ siê cz³owiek. Pierwsze egzemplarze tej broni by³y wykonane z drewna i zaostrzone na koñcu. Kiedy cz³owiek nauczy³ siê wytapiaæ metale, groty w³óczni by³y wytwarzane z ¿elaza i stali. W pewnym momencie zaczêto eksperymentowaæ z ró¿nymi typami grotów; w ten sposób powsta³y ró¿ne typy broni drzewcowej.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: k³ute
+Waga: 5
+OpóŸnienie: 6
+Rodzaj bieg³oœci: w³ócznie
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ: 
+	Kap³an 
+	Mag 
+	Z³odziej~
+@48=~Dwanaœcie Kroków~
+@49=~Ta d³uga w³ócznia zosta³a wykonana z grubego dêbowego drzewca i wygl¹da na to, ¿e by³a czêsto wykorzystywana w czasie polowañ na dziki polarne. Na trzonku znajduje siê wiele pieczêci oraz znaków runicznych, które maj¹ poprawiæ celnoœæ ataku. Ponadto, w sytuacji bezpoœredniego zagro¿enia ¿ycia, w³ócznia potrafi zaatakowaæ nieprzyjaciela znajduj¹cego siê nawet o piêæ jej d³ugoœci od jej w³aœciciela, dziêki czemu przeciwnik mo¿e zostaæ zabity zanim jeszcze zbli¿y siê na niebezpieczn¹ odleg³oœæ.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 + 4
+TraK0: +4
+Typ obra¿eñ: k³ute
+Specjalne: 
+	Zasiêg piêciu d³ugoœci zamiast dwóch
+	Moc zaklêcia: mo¿na rzucaæ zaklêcie Obni¿enie Odpornoœci 3/dzieñ
+Waga: 7
+OpóŸnienie: 5
+Rodzaj bieg³oœci: w³ócznie
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ: 
+	Kap³an 
+	Mag 
+	Z³odziej~
+@50=~Obni¿enie Odpornoœci~
+@51=~Niegasn¹ca pochodnia Beliba~
+@52=~Maczuga~
+@53=~Wiêkszoœæ maczug to po prostu kawa³ki twardego drewna, od strony uchwytu wê¿sze, zaœ po przeciwnej szersze. Ta prosta broñ by³a u¿ywana od czasów, gdy cz³owiek zacz¹³ stosowaæ narzêdzia. Ka¿dy mo¿e znaleŸæ gdzieœ mocny kawa³ek drewna i zacz¹æ nim machaæ, st¹d te¿ popularnoœæ i powszechnoœæ maczug.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: obuchowe
+Waga: 3
+OpóŸnienie: 4
+Rodzaj bieg³oœci: maczuga
+Typ broni: 1-rêczna
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Mag~
+@54=~Niegasn¹ca pochodnia Beliba~
+@55=~Belib Nieufny by³ bez w¹tpienia najlepiej wyposa¿onym poszukiwaczem przygód w historii - lub móg³by byæ, gdyby kiedykolwiek wyruszy³ z domu, by jak¹kolwiek znaleŸæ. Jego Wieczna Pochodnia to jeden z wielu przedmiotów z pokaŸnej listy umagicznionych narzêdzi przeszukiwacza lochów i podziemi. Jest to magiczny lampion o wygl¹dzie wyszukanej, drewnianej pochodni. Œwieci wewnêtrznym p³omieniem o jaskrawej, pomarañczowej barwie, którego nic nie jest w stanie zgasiæ - zanurzona w wodzie, zakopana pod paroma metrami ska³y, czy uderzona o g³owê rozmok³ego trolla bagiennego, Wieczna Pochodnia Beliba nadal bêdzie œwieciæ.
+
+Gdy Belib ukoñczy³ ostatni ze swych przedmiotów, zapakowa³ je wszystkie do ogromnego plecaka - zaczarowanego oczywiœcie tak, by móg³ pomieœciæ znacznie wiêcej, ni¿ Belib by³by normalnie w stanie unieœæ - i zarzuci³ go na ramiona, gotowy na przygodê ¿ycia. Gnom przekroczy³ próg swego domu... i zosta³ natychmiast przygnieciony przez swój olbrzymi plecak. Torba otworzy³a siê, a jej zawartoœæ rozsypa³a po ca³ej ulicy w Waterdeep, na której Belib mieszka³, znikaj¹c w mgnieniu oka w kieszeniach przechodniów.
+
+Cia³o Beliba zosta³o wreszcie zabrane do œwi¹tyni i wskrzeszone przez dobroduszn¹ kap³ankê, lecz wtedy ostatni z magicznych przedmiotów gnoma... i wiêksza czêœæ jego domu... by³y ju¿ dawno daleko st¹d. Wdziêczny, lecz naturalnie zmartwiony, Belib wykona³ dla kap³anki kilka unikalnych i niezwyk³ych przedmiotów, a nastêpnie powróci³ do swej ojczystej ziemi i rodziny, na zawsze odchodz¹c z powierzchni ziemi.
+
+PARAMETRY:
+
+Obra¿enia: 1k6
+Typ obra¿eñ: obuchowe
+Specjalne: 
+	Ognisty wybuch: +2k6 obra¿eñ od ognia i 10% szans na dodatkowe 1k10 obra¿eñ od ognia
+Waga: 5
+OpóŸnienie: 4
+Rodzaj bieg³oœci: maczuga
+Typ broni: 1-rêczna
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Mag~
+@56=~Wi¹¿¹ca Szarfa Czarnego Kruka~
+@57=~Pas~
+@58=~Pasy s¹ podobne do zwyk³ych pasków. W odró¿nieniu jednak od tych ostatnich, nie s³u¿¹ podtrzymywaniu spodni i innych imponderabiliów, ale wiesza siê na nich torby, sakwy, pochwy itp.~
+@59=~Wi¹¿¹ca Szarfa Czarnego Kruka~
+@60=~Wi¹¿¹ca Szarfa Czarnego Kruka jest wed³ug plotek symbolem jednego z uczniów zakonu Czarnego Kruka, sanktuarium po³o¿onego w g³êbi Gór Grzbietu Œwiata. Wed³ug legendy Czarny Kruk jest istot¹ z pogranicza mitów Uthgardtu, karz¹cym duchem z podziemia, który pojawi³ siê na powierzchni wiele lat temu, by nauczyæ barbarzyñców pokory i z³amaæ ich arogancjê. Jest on opisywany jako mê¿czyzna o ciemnej karnacji z p³on¹cymi oczami i zakrwawionymi ³añcuchami zwisaj¹cymi z nadgarstków. Legendy czêsto opisuj¹ epickie boje z poganiaczami niewolników i niesprawiedliwoœci¹ na ca³ej Pó³nocy i w królestwach po³udnia. Niektórzy historycy spekuluj¹, ¿e Czarny Kruk móg³ byæ drowem lub pó³-drowem, lecz inni twierdz¹, ¿e by³ pomniejszym lub quasi-bóstwem walcz¹cym o zakoñczenie niewolnictwa i opresji.
+
+Czarna szarfa zosta³a utkana z doskona³ego jedwabiu, byæ mo¿e jedwabiu pajêczego. Nosi siê j¹ wokó³ talii. Nosz¹ca j¹ postaæ mo¿e lepiej skupiæ siê na walce, uwolniæ umys³ od wszystkiego, co rozprasza uwagê, i przekierowaæ ca³¹ sw¹ wewnêtrzn¹ energiê na pokonanie przeciwników. Gdy za³o¿y j¹ ktoœ, kto nie jest mnichem, natychmiast rozwi¹zuje siê i upada na ziemiê.
+
+PARAMETRY:
+
+Specjalne: 
+	+2 Premii do wszystkich ataków 
+	Os³ona przed Zaklêciami: niewra¿liwoœæ na Zamêt, Og³upienie, Uœpienie, Zauroczenie Osoby i P³aszcz Strachu
+Waga: 0~
+@61=~Rybka szczêœliwka M³odego Neda~
+@62=~Naszyjnik~
+@63=~Naszyjniki to ozdobna, metalowa bi¿uteria zwykle wykonana ze srebra, z³ota, platyny lub innych cennych metali, w których dodatkowo osadzone s¹ kamienie szlachetne. Naszyjnik jest zawsze noszony na szyi i mo¿e mieæ bardzo ró¿n¹ d³ugoœæ.~
+@64=~Rybka szczêœliwka M³odego Neda~
+@65=~Ten ledwo rozpoznawalny kawa³ek oœci by³ przez prawie dwadzieœcia lat noszony w Targos jako talizman przynosz¹cy szczêœcie. Historia tego przedmiotu zaczyna siê od ¿eglarza, M³odego Neda z Leœnego Ustroniu. Na jednej z wypraw rybackich w pobli¿u Targos jego ma³a ³ódka przewróci³a siê przy wybrze¿u Maer Dualdon. On trzyma³ siê swej cennej zdobyczy, "niewiarygodnie wielkiego" pstr¹ga kostkog³owego, pomimo tego, ¿e po dotarciu na l¹d zaatakowa³ go g³odny niedŸwiedŸ. Zwierzê odebra³o wiêksz¹ czêœæ pstr¹ga Nedowi, pozostawiaj¹c mu g³owê biednej ryby. Ned wróci³ pieszo do Targos i zatrzyma³ sobie g³ow¹ jako dowód swych przygód. Z czasem Ned zacz¹³ przypisywaæ swe szczêœcie na morzu swojej "szczêœliwej kosteczce". W czasie ustawionej rozgrywki karcianej zbójca Marg Dr¿¹cy "wygra³" od Neda jego "szczêœliw¹ kosteczkê". Ned by³ rozgoryczony oszustwem, lecz nie mia³ ochoty stawiæ czo³a Margowi, by odzyskaæ talizman. Marg zap³aci³ póŸniej rybi¹ g³ow¹ za zapasy, które kupi³ przed poœpieszn¹ ucieczk¹ z Targos. Nowy w³aœciciel kawa³ka oœci trzyma³ go przez kilka miesiêcy, po czym odda³ przyjacielowi w dokach. Do dzisiaj "szczêœliwa kosteczka" Neda mia³a ponad tuzin w³aœcicieli w Targos i jednego w Bremie.
+
+PARAMETRY:
+
++2 do Szczêœcia
++2 do wszystkich rzutów obronnych
+Waga: 0~

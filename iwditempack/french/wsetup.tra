@@ -1,0 +1,375 @@
+@1=~Talisman du Loup Noir~
+@2=~Amulette~
+@3=~Cette pierre plate s'orne d'une patte d'animal. L'ensemble a été grossièrement fait.~
+@4=~Talisman du Loup Noir~
+@5=~Ce talisman grossier prend la forme d'une pierre plate sur laquelle on a peint une patte de loup. Malgré son aspect simpliste, le talisman du Loup Noir est extrêmement puissant et bénéfique.
+
+PARAMETRES :
+
+CA : +1
+Spécial : +10 venant se rajouter au maximum
+Résistance contre le froid : +10 %
+Jets de sauvegarde : +1 contre les souffles
+Poids : 1~
+@6=~Chaine de Fureur de Drakkas~
+@7=~Cotte de mailles~
+@8=~La cotte de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. 
+
+PARAMETRES :
+
+Classe d'Armure : 5
+Poids : 40
+Force nécessaire : 8
+Non utilisable par :
+ Druide 
+ Mage 
+ Voleur~
+@9=~Chaîne de Fureur de Drakkas~
+@10=~Drakkas Ranul était un Elfe de la lune banni et particulièrement aigri. Très jeune, il fut capturé par les Drows et forcé de combattre dans une fosse à esclaves. Il dut tout d’abord affronter les autres Elfes enlevés avec lui, mais tous périrent les uns après les autres, jusqu’à ce que ses adversaires deviennent des monstres choisis par les Drows. Motivé par sa haine envers ses ravisseurs, Drakkas continua de combattre avec autant de rage, dans l’espoir qu’il pourrait un jour s’évader et se venger. Son voeu finit par se réaliser, et il réussit en effet à s’enfuir dans l'Ombre-Terre après avoir subtilisé les clefs des cellules à un garde peu consciencieux. Parvenant à récupérer deux cimeterres, il en fit bon usage dans les galeries souterraines. Et quand il rejoignit enfin la surface, il se mit aussitôt en quête de ses congénères. Malheureusement pour lui, ces derniers le bannirent en voyant ses atroces cicatrices. Dépité par cette trahison, il se fit alors un point d’honneur à se venger de ses ravisseurs en les tuant de la façon la plus douloureuse possible. Pour ce faire, il apprit la magie noire, tout en continuant à s’entraîner au maniement des armes. Quand il se sentit prêt, il se fit mercenaire afin de gagner de l’argent et de s’acheter un meilleur équipement. Il voulait notamment acquérir une cotte de mailles si légère qu’elle ne l’empêcherait pas de lancer des sorts. La chance était avec lui le jour où il rencontra un forgeron Nain qui accepta de lui forger l’armure qu’il souhaitait. Bien vite, la cotte de mailles fut achevée et Drakkas put partir se venger. Disparaissant sans laisser de traces, il s’enfonça dans les profondeurs de l'Ombre-Terre et personne n’entendit plus jamais parler de lui. Par contre, son armure finit par ressurgir. Nul ne sait comment cela se produisit, mais on pense généralement qu’il s’agit d’un message subtil des Drows... message que chacun est libre d’interpréter à sa guise, bien sûr.
+
+PARAMETRES :
+
+Classe d'Armure : 2
+Poids : 30
+Force nécessaire : 8
+Spécial :
+ Le porteur de la cotte de mailles peut lancer des sorts ou faire appel à ses compétences de voleur sans pénalité d’armure.
+ Bonus d'attaque : +3
+ Vitesse : 1 attaque supplémentaire par round de combat
+Non utilisable par :
+ Druide~
+@11=~Insigne de la Maison Despana~
+@12=~Amulette~
+@13=~Il s’agit d’un bijou d’ornement fait d’argent, d’or, de platine ou d’autres métaux précieux et ornementé de gemmes. Un collier peut être de n’importe quelle longueur et se porte autour du cou.
+
+Poids : 0,5.~
+@14=~Insigne de la Maison Despana~
+@15=~Cette petite amulette d'obsidienne et d'adamantite dipose d'un anneau près de son sommet, par lequel passe un ruban pourpre et rose. La surface de l'amulette porte les armes de la Maison Despana, une flèche avec un hexagone ; c'est en effet Malavon Despana qui la forgea pour son frère Ilmryn. La légende veut que Malavon dut affronter son frère devenu Maître d'Armes de la Maison Despana lorsque ses alliés de l'église de Vhaeraun et lui-même attaquèrent le matriarquat de Lolth. Le combat fut épique et, alors qu'Ilmryn allait l'emporter, Malavon chuchota un mot de commande secret qui activa l'amulette offerte à son frère ; Ilmryn fut aussitôt entouré d'une barrière magique de protection. La résistance à la magie naturelle d'Ilmryn ne put s'y opposer, l'amulette dispensant un effet bénéfique pour lui. Et lorsque le Maître d'Armes émergea de la sphère qui le protégeait, il se retrouva face à une dizaine des plus puissants tanar'ri qu'il ait jamais vu. Il mourrut hurlant, maudissant le nom de son frère.
+
+PARAMETRES :
+
+Sort : Flou 1/jour
+Sort : Flèche acide de Melf 1/jour
+Sort : Sphère d'isolement d'Otiluke 1/jour
+Poids : 0,5.~
+@16=~Flou~
+@17=~Flèche acide de Melf~
+@18=~Sphère d'isolement d'Otiluke~
+@19=~Brise-Barriques du Shaengarne~
+@20=~Amulette~
+@21=~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètre de longueur comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches. 
+
+PARAMETRES :
+
+Dégâts : 1D8
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 7
+Type de compétence : hache
+Type : arme à 1 main
+Non utilisable par :
+ Druide
+ Clerc
+ Mage 
+ Voleur~
+@22=~Brise-Barriques du Shaengarne~
+@23=~Cette hache usée vient du Gué du Shaengarne, un petit village de bûcherons sur le fleuve Shaengarne, au sud-est de Targos. Bien que véritablement impressionnante, cette hache a sans doute été conçue dans l'unique but de couper du bois et de fendre des bûches, et porte d'ailleurs les marques d'une utilisation intensive.
+
+Le Brise-Barriques du Gué de Shaengarne a sans doute été vendu au Comptoir de commerce Gallaway en échange de denrées et de matériel permettant au village de tenir l'hiver. La taille et le poids impressionnant de cette hache la rendent plus lente que les haches conventionnelles, mais des enchantements de blessures mineures et d'affûtage permanent lui ont été appliqués, ce qui en fait une arme idéale pour trancher le bois ou les gobelins.
+
+PARAMETRES :
+
+Dégâts : 1d8 +3
+TAC0 : +3
+Type de dégâts : tranchant
+Spécial :
+ Force : +1
+ Brise les constructions
+Poids : 9
+Facteur de vitesse : 8
+Type de compétence : hache
+Type : arme à 1 main
+Non utilisable par :
+ Druide
+ Clerc
+ Mage 
+ Voleur~
+@24=~Harnois plain de Kresselack~
+@25=~Harnois plain~
+@26=~Le harnois est la meilleure armure qui soit pour un guerrier, tant au niveau de l'apparence que de la protection. Ces plaques adaptées à la morphologie de leur porteur sont conçues pour dévier coups et projectiles, et ce harnois ciselé est particulièrement splendide.
+
+PARAMETRES :
+
+CA : 1
+Poids : 70
+Force nécessaire : 15
+Non-utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+@27=~Harnois plain de Kresselack~
+@28=~Cette armure de plate noire appartenait au roi des barbares, Kresselack le Loup Noir. Après la mort de Kresselack, cette armure a été déposée dans sa tombe aux côtés de son corps. Cependant, l'esprit du Loup Noir fût puni pour ses méfaits dans la vie et ne put trouver la paix dans la mort. Ce ne fût que seulement quelques années après le Temps des Troubles qu'un prêtre voyageur de Kelemvor la libéra de son tourment. Quelques fragments de l'âme de Kresselack sont restés dans le monde, cependant, et liés à son armure, lui accordèrent de nouvelles capacités. Bien entendu, l'armure elle-même a été rapidement volée par les pilleurs de tombes une fois que la nouvelle du bannissement du fantôme s'est répandue aux villages voisins.
+
+PARAMETRES :
+
+CA : -1
+Spécial:
+ 20% de résistance au froid
+ Immunité à l'absorption de niveau
+Poids : 70
+Force nécessaire : 15
+Non-utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+@29=~Manteau de la Tempete Prochaine~
+@30=~Robe usée jusqu'à la corde~
+@31=~Lysan a probablement laissé cette robe usée jusqu'à la corde en partant en pèlerinage à la vallée des Ombres. Etant prêtresse d'Aurile, elle n'en avait probablement pas besoin durant son séjour dans la neige.~
+@32=~Manteau de la Tempête Prochaine~
+@33=~Cette robe apparemment usée jusqu'à la corde a mis ses pouvoirs " en sommeil " sur ordre de Lysan, afin de ne pas révéler que cette dernière était prêtresse d'Aurile. Mais il suffit qu'un seul flocon de neige tombe sur la robe pour qu'elle se transforme en mante d'un blanc scintillant, permettant à son porteur de flotter au-dessus de la neige et de marcher sur les torrents. Peu de marchands acceptent d'acheter un tel objet (et encore le font-ils à bas prix), car ils reconnaissent là un objet sacré de la Fille du Gel, dont ils ne voudraient surtout pas encourir le déplaisir.
+
+Créées durant la fête de la Tempête Prochaine (le début de l'hiver), les robes de ce type résistent aux flammes et permettent à qui les porte de ne pas se retrouver immobilisé. Même si les prêtresses d'Aurile résistent naturellement au froid et peuvent se déplacer aisément dans la neige et les cours d'eau glacée, la mante augmente encore la protection que leur confère la déesse, puisqu'elle leur offre une protection supplémentaire contre le froid (en leur permettant, si elles sont immunisées contre celui-ci, de l'absorber) et les défend également contre le feu. De plus, il suffit d'invoquer le pouvoir de la mante pour traverser un obstacle ou bouger malgré un blocage physique ou magique (paralysie de goule, sorts de Toile d'araignée ou d'Immobilisation des personnes, etc.).
+
+PARAMETRES :
+
+Spécial : lance Action libre (3 charges)
+Bonus à la CA : +1
+Résistance au froid : +30 %
+Résistance au feu : +30 %
+Jet de sauvegarde contre la paralysie : +1
+Poids : 1
+Non-utilisable par :~
+@34=~Action libre~
+@35=~Fleau aux Trois Cranes~
+@36=~Flail~
+@37=~Le fléau consiste en un solide manche en bois auquel est attachée une barre de fer, une barre de bois cloutée ou une boule hérissée de pointes. Les deux éléments sont fixés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain.
+
+PARAMETRES :
+
+Dégâts : 1D6 +1
+Type de dégâts : contondant
+Poids : 15
+Facteur de vitesse : 7
+Type de compétence : Fléau/Etoile du matin
+Type : arme à 1 main
+Force nécessaire : 13
+Inutilisable par :
+ Druide
+ Mage
+ Voleur~
+@38=~Fléau aux Trois Crânes~
+@39=~Le Fléau aux Trois Crânes, ou "Fléau à Dents" comme on l'appelle plus couramment fut construit en 1035 CV pour Wychgar, seigneur de guerre barbare. Au cours d'une bataille dans les déserts du Nord, passée à la postérité sous le nom de bataille de la Passe Sacrée, Wychgar perdit ses trois frères, tués par l'armée orque conduite par Kraag le Magnifique. Une fois la nuit tombée, l'inconsolable Wychgar retourna sur le champ de bataille pour chercher leurs dépouilles afin de leur offrir une sépulture convenable. Lorsqu'il les retrouva, il fut visité par les esprits de ses trois frères qui étaient "bloqués" entre le monde des vivants et celui des morts. Comme il ne pouvait les aider à regagner leur dernière demeure, il demanda à un chaman de les faire entrer dans le fléau.
+
+Les trois têtes du fléau sont les crânes de ses frères reliés au manche par des chaînes en argent. Les trois crânes arborent un rictus démoniaque à l'idée de cette nouvelle vie. Lorsque le fléau est utilisé en combat, les trois têtes mordent l'ennemi et lui arrachent des morceaux de chair.
+
+PARAMETRES :
+
+Dégâts : 1D6 +5, et +1D4 de dégâts perforants infligés par les morsures
+TAC0 : +4
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 5
+Spécial : 10% de chance d'infliger 1D6 dégâts perforants supplémentaires
+Type de compétence : Fléau/Etoile du matin
+Type : arme à 1 main
+Force nécessaire : 13
+Inutilisable par :
+ Druide
+ Mage
+ Voleur~
+@40=~Epieu de Frene Blanc~
+@41=~Lance~
+@42=~La lance, l'une des premières armes de l'homme, remonte aux temps les plus reculés et était initialement constitué d'un pic ou d'un bâton de bois taillé en pointe à une extrémité. Avec la découverte et la maîtrise des métaux, les hommes ont commencé à remplacer les pointes en bois par des pointes de fer ou d'acier. Les armuriers ont alors pu essayer différents types de pointes, ce qui a permis l'élaboration de certains types d'armes d'hast.
+
+PARAMETRES :
+
+Dégâts : 1D6
+Type de dégâts : perforant
+Poids : 5
+Facteur de vitesse : 6
+Type de compétence : lance
+Type : arme à 2 mains
+Non utilisable par :
+ Clerc
+ Mage
+ Voleur~
+@43=~Epieu de Frêne Blanc~
+@44=~Consacrée par les prêtres de Malar voici plusieurs siècles, cette lance est utilisée lors des Grandes Chasses pour préparer les festins sanglants du clergé. Son dernier possesseur était le Vieux Chasseur Wellin, qui aurait péri après avoir bêtement chassé les dryades à Bois-Manteau. La hampe en frêne s'achève par un fer redoutable.
+
+PARAMETRES :
+
+Dégâts : 1D6 +3
+TAC0 : +3
+Type de dégâts : perforant
+Spécial : 5 % des attaques portées infligent 1d6 points de dégâts supplémentaires en raison des barbillons qui ornent le fer
+Poids : 2
+Facteur de vitesse : 3
+Type de compétence : lance
+Type : arme à 2 mains
+Non utilisable par :
+ Clerc
+ Mage
+ Voleur~
+@45=~Douze Pas~
+@46=~Lance~
+@47=~L'une des premières armes de l'humanité, qui n'est autre qu'un bout de bois dont l'une des extrémités a été taillée en pointe. L'apparition de la métallurgie a permis d'ajouter une tête de fer ou d'acier à la lance. Les expérimentations des forgerons amenèrent ensuite à la création de diverses variantes et à l'apparition des armes d'hast.
+
+PARAMETRES :
+
+Dégâts : 1D6
+Type de dégâts : perforant
+Poids : 5
+Facteur de vitesse : 6
+Type de compétence : lance
+Type : arme à 2 mains
+Non utilisable par :
+ Clerc
+ Mage
+ Voleur~
+@48=~Douze Pas~
+@49=~Cette longue lance est faite de chêne particulièrement épais et semble avoir longtemps servi à chasser le sanglier arctique. Elle porte nombre de runes le long de son manche pour aider son porteur à frapper juste et dans une situation critique, elle peut s'allonger considérablement pour atteindre l'adversaire avant qu'il puisse arriver au corps à corps.
+
+PARAMETRES :
+
+Dégâts : 1D6 +4
+TAC0 : +4
+Type de dégâts : perforant
+Spécial :
+ Longueur de 5 au lieu de 2
+ Sort : Abaissement de la résistance 3/jour
+Poids : 7
+Facteur de vitesse : 5
+Type de compétence : lance
+Type : arme à 2 mains
+Non utilisable par :
+ Clerc
+ Mage
+ Voleur~
+@50=~Abaissement de la résistance~
+@51=~Torche eternelle de Belib~
+@52=~Gourdin~
+@53=~Un bout de bois épais, étroit à la base et plus large au sommet, fait une massue des plus honorables. Cette arme est l'une des premières jamais créée pour la guerre, depuis que l'humanité a découvert l'usage des outils. C’est une arme très répandue et facile d’utilisation. 
+
+PARAMETRES :
+
+Dégâts : 1D6
+Type de dégâts : contondant
+Poids : 3
+Facteur de vitesse : 4
+Type de compétence : gourdin
+Type : arme à 1 main
+Force nécessaire : 5
+Non utilisable par :
+ Mage~
+@54=~Torche éternelle de Belib~
+@55=~Belib le Prudent était ou aurait sans aucun doute été l’aventurier le mieux équipé à avoir foulé le royaume s’il avait effectivement quitté sa maison en vie. La torche éternelle n’est que l’un des nombreux objets enchantés dont il était équipé. Cette lanterne magique, qui a la forme d’une torche en bois, brûle d’une flamme orange brillante, impossible à éteindre. Qu’elle soit plongée dans de l’eau, enterrée sous des tonnes de roches ou utilisée pour fracasser le crâne trempé d’un troll des marais, la torche éternelle de Belib ne s’éteindra jamais.
+
+Lorsque Belib eut achevé le dernier de ses objets, il les entassa dans un sac gigantesque, enchanté pour contenir bien plus que ce que Belib aurait pu porter, et le mit sur son dos, prêt à partir à l’aventure. Alors qu’il franchissait le seuil de sa porte, il trébucha ... et fut instantanément écrasé sous le poids de son énorme sac à dos. Le sac s’ouvrit et répandit tout son contenu dans la rue d’Eauprofonde où vivait Belib. Le contenu du sac disparut évidemment assez rapidement dans les mains des bons à rien qui passaient par là.
+
+Le corps de Belib fut finalement emmené jusque dans un temple où une prêtresse au bon coeur lui rendit la vie, mais à ce moment là tous ces objets enchantés avaient disparus pour de bon, comme une bonne partie de ce que contenait sa maison. Reconnaissant, mais quelque peu agacé, Belib conçu quelques objets magiques uniques pour la prêtresse, avant de rejoindre sa famille et sa terre natale pour disparaître à jamais de la surface du monde.
+
+PARAMETRES :
+
+Dégâts : 1D6
+Type de dégâts : contondant
+Spécial :
+ Explosion : +2d6 de dégâts de feu et 10% de chances d'infliger 1d10 supplémentaires de dégâts de feu
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : gourdin
+Type : arme à 1 main
+Force nécessaire : 5
+Non utilisable par :
+ Mage~
+@56=~Ceinture liante du Corbeau Noir~
+@57=~Ceinturon~
+@58=~Un ceinturon est souvent confondu avec une ceinture, même si contrairement à elle, il ne sert pas à retenir un pantalon, mais à y accrocher des bourses ou des fourreaux.~
+@59=~Ceinture liante du Corbeau Noir~
+@60=~La Ceinture du Corbeau Noir appartenait vraisemblablement à l'un des disciples du monastère du Corbeau Noir, un sanctuaire situé au fin fond de l'Epine Dorsale du Monde. Le Corbeau Noir est une figure mythique d'Uthgardt, un esprit vengeur venu en ce monde pour punir l'arrogance des barbares et leur apprendre l'humilité. Décrit comme un homme noir de peau, aux yeux de braise et aux poignets ornés de chaînes brisées, le Corbeau Noir apparaît le plus souvent au coeur de batailles épiques, libérant les esclaves et combattant les injustices dans tous les royaumes. Certains historiens avancent que le Corbeau Noir pourrait avoir été un Elfe noir ou assimilé mais d'autres affirment qu'il était un dieu mineur venu sur terre pour mettre un terme à toutes les formes d'esclavage et d'oppression.
+
+Cette ceinture noire est faite de soie d'araignée et se porte lâche autour de la taille. Elle permet à son porteur de se concentrer uniquement sur le combat, libérant son esprit de toutes les distractions et canalisant son énergie en vue de vaincre ses ennemis. Seul un moine peut la porter...
+
+PARAMETRES :
+
+Spécial :
+ Bonus de +2 à toutes les attaques
+ Immunité aux sorts de Confusion, Débilité, Sommeil, Charme-personne et Manteau de Terreur
+Poids : 0~
+@61=~Amulette du jeune Ned~
+@62=~Collier~
+@63=~Il s’agit d’un bijou décoratif fait d’argent, d’or ou d’autres métaux précieux et ornementé de gemmes. Un collier peut être de n’importe quelle longueur et se porte autour du cou.~
+@64=~Amulette du jeune Ned~
+@65=~Ce morceau d'arête difficilement reconnaissable sert de porte-bonheur à Targos depuis près de 20 ans. L'histoire de cet objet commence avec le jeune Ned de Bois-Isolé. Au cours de l'une de ses sorties de pêche, sa barque se retourna près de la rive du Maer Duaidon. Il réussit néanmoins à conserver sa prise du jour, une truite "incroyablement énorme", même s'il fut pourchassé par un ours affamé dès qu'il mit pied sur la plage. L'ours parvint néanmoins à emporter avec lui la plus grosse partie du poisson, ne laissant à ce pauvre Ned que la tête. Ned rentra vers Targos à pied et conserva la tête de la truite comme preuve de sa mésaventure. Avec le temps, Ned attribua à la truite la chance qu'il eut dans sa carrière de pêcheur. Le brigand Marg la Tremblotte "gagna" le porte-bonheur de Ned au cours d'une partie de cartes "honnête". Amer, Ned se résigna, ne voulant pas se confronter au malfrat. Ce dernier vendit le fétiche un peu plus tard, pour acheter des provisions avant son départ hâtif de Targos. L'acheteur la conserva quelques mois avant de l'offrir à un de ses amis des quais. Depuis ce temps, le "Porte-bonheur de la Truite" a été vendu, donné ou prêté à près d'une douzaine de personnes à Targos et même, une fois, à un habitant de Bremen.
+
+PARAMETRES :
+
+Chance : +2
+Bonus au jet de sauvegarde : +2 à tous les jets de sauvegarde
+Poids : 0~
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :" 

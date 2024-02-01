@@ -1,0 +1,490 @@
+@1=~Black Wolf Talisman~
+@2=~Amulet~
+@3=~It's a flat stone with carelessly painted animal paw.~
+@4=~Black Wolf Talisman~
+@5=~This crude talisman appears to be nothing more that a flat piece of stone 
+ with a wolf's paw painted on it. Despite its simple appearance, the Black 
+ Wolf Talisman contains powerful beneficial magic.
+
+ STATISTICS:
+
+ Armor Class Bonus: 1
+ Special: +10 to Max Hit Points
+ Resistance Bonuses
+   +10% Cold Resistance
+   +1 Save vs. Breath
+ Weight: 1~
+@6=~Chain of Drakkas' Fury~
+@7=~Chainmail~
+@8=~Chain mail is made of interlocking metal rings.  It is always worn over a 
+  layer of padded fabric or soft leather to prevent chafing and lessen the 
+  impact of blows.
+
+  STATISTICS:
+
+  Armor Class: 5
+  Weight: 40
+  Requires: 8 Strength
+  Not Usable By:
+   Druid
+   Mage
+   Thief~
+@9=~Chain of Drakkas' Fury~
+@10=~Drakkas Ranul was an outcast Moon Elf with a huge chip on his shoulder.  At a
+very young age, Drakkas was kidnapped by a Drow raiding party and brought up by
+the Drow to be a pit fighter.  At first he fought his fellow kidnap victims in
+the pits.  However, over time, his fellow abductees died from their wounds and
+poor treatment, thus leaving Drakkas alone to eventually fight monsters of the
+Drow's choosing.  Drakkas persevered, fueled by his ever-growing hatred for his
+captors, the hopes of one day escaping and then taking revenge on his
+kidnappers.
+
+One day Drakkas got his wish - he was able to escape by stealing his jail cell
+keys from his lazy night guard, and then stealthfully slipping out into the
+unforgiving Underdark.  He managed to steal a couple of scimitars on his way
+out, which he put to good use while circumventing the twisted corridors of the
+Underdark.  When he emerged on the surface, he immediately sought out his Moon
+Elf kin.
+
+Unfortunately, when he found his kin, they ostracized him due to his horrendous
+battle scars.  Embittered and outcast, he made it his mission in life to exact
+the most painful revenge possible on his kidnappers.  Drakkas diligently 
+trained in the dark magics, and continued his formidable weapons training as 
+well.  When he got to the point where he felt he was ready, he began to sell 
+his services as a mercenary to earn coin and buy better equipment.  One thing 
+in particular he eventually wanted was lightweight chain mail that would not 
+interfere with his spell casting.  Luck was with him the day he found a Dwarven 
+armorsmith who could accommodate Drakkas' needs.  It was not long after until 
+the armor was finished and Drakkas was ready for his mission of revenge.
+
+Drakkas disappeared from the people who knew him and utilized his mercenary
+services, and ventured into the depths of the Underdark, where he was never
+heard from again.  However, his special armor did somehow make it out of the
+Underdark.  No one knows how, but speculation has it that the return of 
+Drakkas' chain mail to the surface world was a subtle message from the Drow.  
+The message, of course, was left to the imagination of the interpreter.
+
+
+  STATISTICS:
+
+  Armor Class: 2
+  Weight: 30
+  Requires: 8 Strength
+  Special:
+  	Spellcasting and Thieving abilities can be performed without penalties from
+	wearing armor.
+  	Attack Bonus: +3 bonus
+  	Speed: 1 additional attack per combat round
+  Not Usable By:
+   Druid~
+@11=~House of Despana Insignia~
+@12=~Amulet~
+@13=~A necklace is a piece of ornamental metal jewelry usually made of silver, gold,
+platinum, or other precious metal, and adorned with gems.  A necklace is always
+worn on the neck and can be of any length.
+Weight:  1 lb.~
+@14=~House of Despana Insignia~
+@15=~This small obsidian and adamantite amulet has a metal hoop near the top through
+which a purple and pink ribbon passes.  The raised surface of the amulet
+features the arrow and hexagon glyph of House Despana.  Malavon Despana crafted
+the amulet for his brother, Ilmryn.  Legends state that when Malavon and his
+allies in the church of Vhaeraun attacked the Lolth matriarchy, he had to face
+his brother, then the Weapons Master of House Despana, in a pitched battle.
+Just as Ilmryn gained the upper hand, Malavon uttered a secret word that
+invoked an unknown power within the amulet.  Ilmryn was surrounded by a magical 
+barrier that protected him from harm.  Since it was ostensibly a beneficial 
+magical effect, Ilmryn's natural magic resistance did not help him resist the 
+amulet's power.  When the Weapons Master emerged from the protective sphere, he 
+found himself face to face with over a dozen of the most powerful tanar'ri he 
+had ever seen.  He died screaming, cursing his brother's name.
+
+STATISTICS:
+
+Spell Power: Can cast Blur 1/Day
+Spell Power: Can cast Melf's Acid Arrow 1/Day
+Spell Power: Can cast Otiluke's Resilient Sphere 1/Day
+Weight: 1 lb.~
+@16=~Blur~
+@17=~Melf's Acid Arrow~
+@18=~Otiluke's Resilient Sphere~
+@19=~Kegsplitter of Shaengarne Ford~
+@20=~Amulet~
+@21=~The most common version of the battle axe is a stout pole about four feet in length with a 
+	single-edged, trumpet-shaped blade mounted on one end.  Battle axes are also called broad axes. 
+	
+	STATISTICS:
+	
+	Damage:  1D8
+	Damage type:  slashing
+	Weight: 7
+	Speed Factor: 7
+	Proficiency Type: Axe
+	Type:  1-handed
+	Not Usable By:
+	 Druid
+	 Cleric
+	 Mage 
+	 Thief~
+@22=~Kegsplitter of Shaengarne Ford~
+@23=~This worn-looking axe heralds from Shaengarne Ford, a small logging village to
+the southwest of Targos that borders the Shaengarne River.  Although a 
+fearsome-looking weapon, the axe looks like it was intended more for splitting 
+kegs and chopping wood than for use in actual combat, and it looks like it has 
+seen a healthy amount of use felling trees.
+
+Kegsplitter was most likely sold to the Gallaway Trade Depot in exchange for
+foodstuffs and supplies to last Shaengarne Ford through the season.  While the
+axe's great size and weight make it slower than a conventional hand-axe, minor
+wounding and ever-sharp enchantments have been carved into the haft of the axe,
+allowing it to split kegs and goblins with ease.
+
+STATISTICS:
+
+  Damage:  1D8 + 3
+  THAC0:  +3
+  Damage type:  Slashing
+  Special:  Strength: +1
+  	    Slays Constructs
+  Weight:  9
+  Speed Factor:  8
+  Proficiency Type: Axe
+  Type:  1-handed
+  Not Usable By:
+	 Druid
+	 Cleric
+	 Mage 
+	 Thief~
+@24=~Kresselack's Full Plate Mail~
+@25=~Full Plate Mail~
+@26=~Full plate armor is the best armor a warrior can buy, both in appearance and 
+  protection.  The perfectly fitted interlocking plates are specially angled to 
+  deflect arrows and blows, and the entire suit is carefully adorned with rich 
+  engraving and embossed detail.
+
+  STATISTICS:
+
+  Armor Class: 1
+  Weight: 70
+  Requires: 15 Strength
+  Not Usable By:
+   Bard
+   Druid
+   Mage
+   Thief~
+@27=~Kresselack's Full Plate Mail~
+@28=~This black plate armor once belonged to the barbarian king,
+Kresselack the Black Wolf. After Kresselack's death, it was lain
+into his tomb along with his body. However, the Black Wolf's
+spirit was punished for his deeds in life and would not find
+peace in death. It was only some years after the Time of
+Troubles that a traveling priest of Kelemvor freed him from his
+torment. Some fragments of Kresselack's soul remained in the
+world, however, and bonded with his armor, bestowing new
+abilities on it.
+
+Of course, the armor itself was promptly looted by grave
+robbers once the news of the ghost's banishment from the
+tomb spread around the nearby towns.
+
+  Armor Class: -1
+  Special:
+	20% resistance to cold
+	Immunity to Level Drain
+  Weight: 70
+  Requires: 15 Strength
+  Not Usable By:
+   Bard
+   Druid
+   Mage
+   Thief~
+@29=~Mantle of the Coming Storm~
+@30=~Threadbare Robe~
+@31=~Lysan probably left this threadbare robe when she went on a journey to Shadow Dale. Beeing priestess of Auril she probably didn't need it dueing journey through the snow.~
+@32=~Mantle of the Coming Storm~
+@33=~This seemingly threadbare robe had become "dormant" upon Lysan's command, so
+  as not to expose herself as a priestess of Auril. When as much as a single 
+  snowflake falls upon the robe, it transforms into a scintillating cloak of 
+  white that allows the wielder to float above snow drifts and walk through 
+  even raging rivers with ease. Most merchants will not wish to purchase this 
+  item, or will do so at a very low price, as they see it as a sacred item of 
+  Auril the Frost-Maiden and likely to attract her followers... and her 
+  displeasure.
+
+  Created during the ceremonies of the Coming Storm (the onset of winter) to 
+  Auril, these robes are specially created to resist flames and allow the 
+  wearer to resist any attempt to stop or hold them. Although the priestesses 
+  of Auril are naturally resistant to cold and can move through snow and icy 
+  rivers with ease, these cloaks amplify the protection of the goddess, 
+  allowing the wearer additional cold resistance (which allows a wearer already 
+  immune to cold to absorb its power) and even goes so far as to leach the heat 
+  from fire attacks directed at the wearer. In addition, the robe may be 
+  invoked to allow the wearer to pass over or through any obstacle designed to 
+  hold them, whether Web spells, ghoul paralyzation, Hold Person spells and the 
+  like.
+
+  STATISTICS:
+
+  Special: Casts 'Free Action' (3 Charges)
+  Armor Class Bonus: 1
+  Resistance Bonuses:
+    +1 Save vs. Paralyzation
+    +30% Cold Resistance
+    +30% Fire Resistance
+  Weight:  1
+  Not usable by:~
+@34=~Free Action~
+@35=~SkullFlail~
+@36=~Flail~
+@37=~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod 
+  with spikes, or a spiked iron ball. Between the handle and its implement is 
+  either a hinge or chain link.  The weapon was originally used as a tool for 
+  threshing grain.
+
+  STATISTICS:
+
+  Damage:  1D6 +1
+  Damage type:  crushing
+  Weight: 15
+  Speed Factor: 7
+  Proficiency Type: Flail/Morningstar
+  Type:  1-handed
+  Requires: 13 Strength
+  Not Usable By:
+   Druid
+   Mage
+   Thief~
+@38=~SkullFlail~
+@39=~Skullflail, or "The Flail of Teeth" as it is more commonly known, was
+constructed in 1035 DR for the barbarian warlord Wychgar. During a battle in 
+the northern wastes which became known as Hallowed Pass, Wychgar lost his three
+brothers to the orc army led by Kraag the Mighty. Wychgar was distraught and
+during the night he wandered the battlefield looking for their bodies to take
+away for proper burial. He stumbled across them and was visited by the 
+brothers' spirits who were trapped between the land of the living and the land 
+of the dead. Unable to help them leave he had their souls stored in the flail 
+with the help of a shaman.
+
+The three heads of the flail are his brother's skulls, which are attached to 
+the shaft by silver chains. The three skull-heads grin maniacally at their new 
+life. When the flail is used in combat the three heads bite the target, tearing 
+and rendering flesh.
+
+  STATISTICS:
+
+  Damage:  1D6 +5, and +1d4 piercing from the biting skulls
+  THAC0:  +4
+  Damage type:  crushing
+  Weight: 4
+  Speed Factor: 5
+  Special: 10% chance of an additional 1d6 piercing damage
+  Proficiency Type: Flail/Morningstar
+  Type:  1-handed
+  Requires: 13 Strength
+  Not Usable By:
+   Druid
+   Mage
+   Thief~
+@40=~Spear of White Ash~
+@41=~Spear~
+@42=~One of man's earliest weapons, dating back to the most primitive of times, 
+  the first spears were simply wooden poles or sticks sharpened at one end.  
+  When man mastered metals, spearheads were made from iron and steel.  Having 
+  reached this end, weaponers began experimenting with different types of spear 
+  heads, thus leading to the development of certain polearm types.
+
+  STATISTICS:
+
+  Damage:  1D6
+  Damage type:  Piercing
+  Weight: 5
+  Speed Factor: 6
+  Proficiency Type: Spear
+  Type:  2-handed
+  Not Usable By:
+   Cleric
+   Mage
+   Thief~
+@43=~Spear of White Ash~
+@44=~Consecrated by Malarite priests hundreds of years ago, this spear was used on 
+  High Hunts in preparation for their bloody feasts.  It was last in the hands 
+  of Old Hunter Wellin, who is believed to have died when he foolishly hunted 
+  dryads near the Cloakwood.  The weapon is made from a single piece of ash 
+  wood topped with a cruel spearhead.
+
+  STATISTICS:
+
+  Damage:  1D6 + 3
+  THAC0:  +3
+  Damage type:  Piercing
+  Special:  5% of all hits cause an additional 1d6 points of damage from the 
+            barbs on the spearhead
+  Weight:  2
+  Speed Factor:  3
+  Proficiency Type: Spear
+  Type:  2-handed
+  Not Usable By:
+   Cleric
+   Mage
+   Thief~
+@45=~Twelve Paces~
+@46=~Spear~
+@47=~One of man's earliest weapons, dating back to the most primitive of times, 
+  the first spears were simply wooden poles or sticks sharpened at one end.  
+  When man mastered metals, spearheads were made from iron and steel.  Having 
+  reached this end, weaponers began experimenting with different types of spear 
+  heads, thus leading to the development of certain polearm types.
+
+  STATISTICS:
+
+  Damage:  1D6
+  Damage type:  Piercing
+  Weight: 5
+  Speed Factor: 6
+  Proficiency Type: Spear
+  Type:  2-handed
+  Not Usable By:
+   Cleric
+   Mage
+   Thief~
+@48=~Twelve Paces~
+@49=~This long spear is made of a thick shaft of oak, and it looks like it has been
+  used extensively in hunting arctic boars.  It bears numerous sigils and runes
+  along its haft to help it strike straight and true, and when held in a life or
+  death situation, the spear can lash out at an opponent up to five lengths from
+  the wielder, taking the victim down before they can even enter close combat. 
+
+  STATISTICS:
+
+  Damage:  1D6 + 4
+  THAC0:  +4
+  Damage type:  Piercing
+  Special:  
+	Reach of 5 lengths, rather than 2
+	Spell Power: Can cast Lower Resistance 3/day
+  Weight:  7
+  Speed Factor:  5
+  Proficiency Type: Spear
+  Type:  2-handed
+  Not Usable By:
+   Cleric
+   Mage
+   Thief~
+@50=~Lower Resistance~
+@51=~Belib's Everlasting Torch~
+@52=~Club~
+@53=~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end.
+This simple weapon has been used since mankind first began using tools.  Anyone
+can find a good stout piece of wood and swing it; hence the club's widespread
+use.
+
+STATISTICS:
+
+  Damage:  1D6
+  Damage type:  crushing
+  Weight: 3
+  Speed Factor: 4
+  Proficiency Type:Club
+  Type:  1-handed
+  Requires: 5 Strength
+  Not Usable By:
+   Mage~
+@54=~Belib's Everlasting Torch~
+@55=~Belib the Wary was arguably the best-equipped adventurer the realms had ever
+known - or would have been, had he ever actually left his home on one.  Just 
+one item from his astounding list of enchanted dungeoneering equipment is his
+Everlasting Torch.  A magical lantern fashioned in the shape of an elaborate
+wooden torch, the item burns with a bright orange flame that cannot be
+extinguished - whether dunked in water, buried under several feet of rock, or
+smashed over the head of a soggy marsh-troll, Belib's Everlasting Torch simply
+will not be put out.
+
+When Belib finally finished the last of his items, he crammed them all into a
+giant pack - enchanted to hold far more than Belib could normally carry 
+himself, of course - and heaved it onto his shoulders, prepared for the 
+adventure of a lifetime.  As Belib crossed the threshold of his dwelling he 
+tripped... and the tiny gnome was instantly crushed beneath his enormous 
+backpack.  The bag burst open, its contents scattering across the Waterdeep 
+street where Belib had lived and rapidly vanishing into the hands of various 
+good-for-nothing passersby.
+
+Belib's corpse was eventually taken to a temple and raised by a kind-hearted
+priestess, but by then the last of Belib's enchanted items... and most of the
+contents of his home... were long gone.  Grateful but understandably upset,
+Belib fashioned a number of unique magical items for the priestess before
+returning to his family and homeland, forever vanishing from the surface world.
+
+
+STATISTICS:
+
+  Damage:  1D6
+  Damage type:  Bludgeoning
+  Special:
+    Flaming Burst:  +2d6 fire damage and 10% chance of +1d10 extra fire damage
+  Weight: 5
+  Speed Factor: 4
+  Proficiency Type: Club
+  Type:  1-handed
+  Requires: 5 Strength
+  Not Usable By:
+   Mage~
+@56=~Binding Sash of the Black Raven~
+@57=~Girdle~
+@58=~Girdles are generally similar to belts.  Unlike belts, girdles are not used 
+  to hold up pants and dungarees, but to carry pouches, scabbards, and the 
+  like.~
+@59=~Binding Sash of the Black Raven~
+@60=~The Sash of the Black Raven is rumored to be a symbol of one of the disciples 
+of the Black Raven monastery, a sanctuary located deep within the heart of the
+Spine of the World Mountains.  According to legend, the Black Raven is a near
+mythical figure in Uthgardt legends, a punishing spirit from the underworld who
+emerged on the surface world many years ago to teach the barbarians humility 
+and break their arrogance.  Described as a dark-skinned man with burning eyes 
+and bloodied chains hanging from his wrists, the stories that circle the Black 
+Raven frequently tell of his epic struggles against slavers and injustice 
+throughout the North and the southern kingdoms.  Some historians speculate that 
+the Black Raven may have been a drow or half-drow, but others claim that he was 
+a minor or quasi-deity dedicated to ending slavery and oppression.
+
+This black sash is made of fine silk, perhaps spider silk, and it is worn 
+looped around the waist.  While worn, it helps the wearer focus in combat, 
+freeing his mind of all distractions and channeling his inner energies to 
+defeat his foes. When worn by any class other than a monk, it immediately 
+unknots itself and falls to the ground.
+
+
+STATISTICS:
+
+Special:
+  +2 Attack Bonus to all attacks
+  Spellward:  Immunity to the spells Confusion, Feeblemind, Sleep, 
+   Charm Person, and Cloak of Fear
+Weight: 0~
+@61=~Young Ned's Knucky~
+@62=~Necklace~
+@63=~A necklace is a piece of ornamental metal jewelry usually made of silver, 
+  gold, platinum, or other precious metals, and adorned with gems.  A necklace 
+  is always worn on the neck and can be of any length.~
+@64=~Young Ned's Knucky~
+@65=~This barely recognizable lump of fish bone has been carried as good luck charm
+in Targos for almost twenty years.  The item's history started with the sailor
+Young Ned of Lonelywood.  On one of his fishing trips near Targos, his small
+boat capsized near the Maer Dualdon shore.  He held onto his prize catch, an
+"unbelievably massive" knucklehead trout, despite being charged by a hungry 
+bear when he reached shore.  The bear snatched the majority of the trout away 
+from Ned, leaving him holding the poor fish's tooth-severed head.  Ned walked 
+the rest of the way to Targos and kept the head as evidence of his encounter.  
+Over time, Ned started to attribute his good fortune as a sailor to his "lucky
+knucky".  The brigand Marg the Trembler "won" Ned's lucky knucky away from him
+in a rigged card game.  Ned was bitter over being cheated, but he wasn't 
+willing to stand up to Marg to get it back.  Marg later used the fish head as 
+currency to buy supplies as he hastily fled from Targos.  The man who received 
+the piece of bone held on to it for a few months before handing it off to a 
+friend at the docks.  In the years that followed up to the current date, Ned's 
+"lucky knucky" has been traded, won, or sold to over a dozen people in Targos 
+and, once, in Bremen.
+
+STATISTICS:
+
+Luck: +2
+Saving Throw Bonus: +2 to all saving throws
+Weight: 0 lb.~

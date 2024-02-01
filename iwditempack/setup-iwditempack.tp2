@@ -1,0 +1,219 @@
+BACKUP ~iwditempack/backup~
+AUTHOR ~malek.deneith@trioptimum.com~
+
+README ~c2/readme-itemupgrades.txt~
+
+LANGUAGE ~English~ ~iwditempack/english~ ~iwditempack/english/wsetup.tra~
+LANGUAGE ~Polski~ ~iwditempack/polish~ ~iwditempack/polish/wsetup.tra~
+LANGUAGE ~Russian (by Silent from Arcanecoast.ru)~ ~iwditempack/russian~ ~iwditempack/russian/wsetup.tra~
+LANGUAGE ~Italian (by Ilot from shsforums.net)~ ~iwditempack/italian~ ~iwditempack/italian/wsetup.tra~
+LANGUAGE ~Francais (par Graoumf des d'Oghmatiques)~ ~iwditempack/french~ ~iwditempack/french/wsetup.tra~
+
+//////////////////////////////
+// 0 - Black Wolf Talisman //
+////////////////////////////
+
+BEGIN @1
+
+COPY ~iwditempack/bam/ibwtalis.bam~ ~override~
+COPY ~iwditempack/itm/bwtalis.itm~ ~override~
+  SAY NAME1 @2
+  SAY UNIDENTIFIED_DESC @3
+  SAY NAME2 @4
+  SAY DESC @5
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~bwtalis~ #1 #1 #1 ~IDENTIFIED~ #1
+
+/////////////////////////////////
+// 1 - Chain of Drakkas' Fury //
+///////////////////////////////
+
+BEGIN @6
+
+COPY ~iwditempack/bam/ichancd.bam~ ~override~
+COPY ~iwditempack/itm/60chancd.itm~ ~override~
+  SAY NAME1 @7
+  SAY UNIDENTIFIED_DESC @8
+  SAY NAME2 @9
+  SAY DESC @10
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~60chancd~ #1 #1 #1 ~IDENTIFIED~ #1
+
+////////////////////////////////////
+// 2 - House of Despana Insygnia //
+//////////////////////////////////
+
+BEGIN @11
+
+COPY ~iwditempack/bam/iamulhd.bam~ ~override~
+COPY ~iwditempack/itm/53amulhd.itm~ ~override~
+  SAY NAME1 @12
+  SAY UNIDENTIFIED_DESC @13
+  SAY NAME2 @14
+  SAY DESC @15
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~53amulhd~ #1 #1 #1 ~IDENTIFIED~ #1
+
+COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
+  APPEND ~tooltip.2da~ ~53amulhd 99990 99991 99992~
+COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
+  REPLACE ~99990~ @16
+  REPLACE ~99991~ @17
+  REPLACE ~99992~ @18
+
+/////////////////////////////////////////
+// 3 - Kegsplitter of Shaengarne Ford //
+///////////////////////////////////////
+
+BEGIN @19
+
+COPY ~iwditempack/bam/iax1hks.bam~ ~override~
+COPY ~iwditempack/itm/11hfaxks.itm~ ~override~
+  SAY NAME1 @20
+  SAY UNIDENTIFIED_DESC @21
+  SAY NAME2 @22
+  SAY DESC @23
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~11hfaxks~ #1 #1 #1 ~IDENTIFIED~ #1
+
+///////////////////////////////////////
+// 4 - Kresselack's Full Plate Mail //
+/////////////////////////////////////
+
+BEGIN @24
+
+COPY ~iwditempack/bam/iplatblk.bam~ ~override~
+COPY ~iwditempack/itm/platblk.itm~ ~override~
+  SAY NAME1 @25
+  SAY UNIDENTIFIED_DESC @26
+  SAY NAME2 @27
+  SAY DESC @28
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~platblk~ #1 #1 #1 ~IDENTIFIED~ #1
+
+/////////////////////////////////
+// 5 - Mantle of Coming Storm //
+///////////////////////////////
+
+BEGIN @29
+
+COPY ~iwditempack/bam/imantlec.bam~ ~override~
+COPY ~iwditempack/itm/mantlecs.itm~ ~override~
+  SAY NAME1 @30
+  SAY UNIDENTIFIED_DESC @31
+  SAY NAME2 @32
+  SAY DESC @33
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~mantlecs~ #3 #1 #1 ~IDENTIFIED~ #1
+
+COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
+  APPEND ~tooltip.2da~ ~mantlecs 99990 -1 -1~
+COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
+  REPLACE ~99990~ @34
+
+/////////////////////
+// 6 - SkullFlail //
+///////////////////
+
+BEGIN @35
+
+COPY ~iwditempack/bam/iflailsk.bam~ ~override~
+COPY ~iwditempack/itm/00flal03.itm~ ~override~
+  SAY NAME1 @36
+  SAY UNIDENTIFIED_DESC @37
+  SAY NAME2 @38
+  SAY DESC @39
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~00flal03~ #1 #1 #1 ~IDENTIFIED~ #1
+
+/////////////////////////////
+// 7 - Spear of White Ash //
+///////////////////////////
+
+BEGIN @40
+
+COPY ~iwditempack/bam/iwhtash.bam~ ~override~
+COPY ~iwditempack/itm/whtash.itm~ ~override~
+  SAY NAME1 @41
+  SAY UNIDENTIFIED_DESC @42
+  SAY NAME2 @43
+  SAY DESC @44
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~whtash~ #1 #1 #1 ~IDENTIFIED~ #1
+
+///////////////////////
+// 8 - Twelve Paces //
+/////////////////////
+
+BEGIN @45
+
+COPY ~iwditempack/bam/ispernp.bam~ ~override~
+COPY ~iwditempack/itm/11hrsrnp.itm~ ~override~
+  SAY NAME1 @46
+  SAY UNIDENTIFIED_DESC @47
+  SAY NAME2 @48
+  SAY DESC @49
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~11hrsrnp~ #1 #3 #1 ~IDENTIFIED~ #1
+
+COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
+  APPEND ~tooltip.2da~ ~11hrsrnp -1 99990 -1~
+COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
+  REPLACE ~99990~ @50
+
+/////////////////////////////////////
+// 9 - Belib's Everlasting Torch //
+///////////////////////////////////
+
+BEGIN @51
+
+COPY ~iwditempack/bam/iclubbt.bam~ ~override~
+COPY ~iwditempack/itm/50clubbt.itm~ ~override~
+  SAY NAME1 @52
+  SAY UNIDENTIFIED_DESC @53
+  SAY NAME2 @54
+  SAY DESC @55
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~50clubbt~ #1 #1 #1 ~IDENTIFIED~ #1
+
+///////////////////////////////////////////
+// 10 - Binding Sash of the Black Raven //
+/////////////////////////////////////////
+
+BEGIN @56
+
+COPY ~iwditempack/bam/ibeltsb.bam~ ~override~
+COPY ~iwditempack/itm/11hfbtsb.itm~ ~override~
+  SAY NAME1 @57
+  SAY UNIDENTIFIED_DESC @58
+  SAY NAME2 @59
+  SAY DESC @60
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~11hfbtsb~ #1 #1 #1 ~IDENTIFIED~ #1
+
+//////////////////////////////
+// 11 - Young Ned's Knucky //
+////////////////////////////
+
+BEGIN @61
+
+COPY ~iwditempack/bam/iamul30.bam~ ~override~
+COPY ~iwditempack/itm/11hfamlk.itm~ ~override~
+  SAY NAME1 @62
+  SAY UNIDENTIFIED_DESC @63
+  SAY NAME2 @64
+  SAY DESC @65
+
+COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
+ADD_STORE_ITEM ~11hfamlk~ #1 #1 #1 ~IDENTIFIED~ #1
