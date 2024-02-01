@@ -28,3 +28,4 @@ Credits
 Russian translation by Silent from Arcanecoast.ru
 Italian translation by Ilot from shsforums.net
 French translation by Graoumf of the d'Oghmatiques
+BG2EE compatibility and fix included by Deratiseur

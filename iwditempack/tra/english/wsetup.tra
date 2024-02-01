@@ -1,3 +1,5 @@
+@9001 = ~[Oo]nly[ %tab%]+[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @1=~Black Wolf Talisman~
 @2=~Amulet~
 @3=~It's a flat stone with carelessly painted animal paw.~

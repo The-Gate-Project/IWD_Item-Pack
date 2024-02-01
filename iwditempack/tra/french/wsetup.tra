@@ -1,3 +1,5 @@
+@9001 = ~[Uu]tilisable[ %tab%]+[Uu]niquement[ %tab%]+[Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
 @1=~Talisman du Loup Noir~
 @2=~Amulette~
 @3=~Cette pierre plate s'orne d'une patte d'animal. L'ensemble a été grossièrement fait.~
@@ -103,7 +105,7 @@ PARAMETRES :
 CA : 1
 Poids : 70
 Force nécessaire : 15
-Non-utilisable par :
+Non utilisable par :
  Barde
  Druide
  Mage
@@ -119,7 +121,7 @@ Spécial:
  Immunité à l'absorption de niveau
 Poids : 70
 Force nécessaire : 15
-Non-utilisable par :
+Non utilisable par :
  Barde
  Druide
  Mage
@@ -140,7 +142,7 @@ Résistance au froid : +30 %
 Résistance au feu : +30 %
 Jet de sauvegarde contre la paralysie : +1
 Poids : 1
-Non-utilisable par :~
+Non utilisable par :~
 @34=~Action libre~
 @35=~Fleau aux Trois Cranes~
 @36=~Flail~
@@ -155,7 +157,7 @@ Facteur de vitesse : 7
 Type de compétence : Fléau/Etoile du matin
 Type : arme à 1 main
 Force nécessaire : 13
-Inutilisable par :
+Non utilisable par :
  Druide
  Mage
  Voleur~
@@ -175,7 +177,7 @@ Spécial : 10% de chance d'infliger 1D6 dégâts perforants supplémentaires
 Type de compétence : Fléau/Etoile du matin
 Type : arme à 1 main
 Force nécessaire : 13
-Inutilisable par :
+Non utilisable par :
  Druide
  Mage
  Voleur~
@@ -372,4 +374,33 @@ choisir un parmi :"
 @-1037= "] pour cause d'absence des pre-requis."
 
 @-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
-@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :" 
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "

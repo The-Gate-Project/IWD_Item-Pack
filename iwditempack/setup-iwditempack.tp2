@@ -1,13 +1,27 @@
 BACKUP ~iwditempack/backup~
 AUTHOR ~malek.deneith@trioptimum.com~
 
-README ~c2/readme-itemupgrades.txt~
+ALWAYS
+	ACTION_DEFINE_ARRAY xo_reload BEGIN
+	~wsetup.tra~
+	END
+	ACTION_DEFINE_ARRAY xo_noconvert BEGIN END
+	LAF HANDLE_CHARSETS
+		INT_VAR
+		infer_charset = 1
+		STR_VAR
+		tra_path = EVAL ~%MOD_FOLDER%/tra~
+		noconvert_array = xo_noconvert
+		reload_array = xo_reload
+	END
+	INCLUDE ~iwditempack/GW_BGEE.tpa~
+END
 
-LANGUAGE ~English~ ~iwditempack/english~ ~iwditempack/english/wsetup.tra~
-LANGUAGE ~Polski~ ~iwditempack/polish~ ~iwditempack/polish/wsetup.tra~
-LANGUAGE ~Russian (by Silent from Arcanecoast.ru)~ ~iwditempack/russian~ ~iwditempack/russian/wsetup.tra~
-LANGUAGE ~Italian (by Ilot from shsforums.net)~ ~iwditempack/italian~ ~iwditempack/italian/wsetup.tra~
-LANGUAGE ~Francais (par Graoumf des d'Oghmatiques)~ ~iwditempack/french~ ~iwditempack/french/wsetup.tra~
+LANGUAGE ~English~ ~English~ ~iwditempack/tra/english/wsetup.tra~
+LANGUAGE ~Polski~ ~Polski~ ~iwditempack/tra/polish/wsetup.tra~
+LANGUAGE ~Russian (by Silent from Arcanecoast.ru)~ ~Russian~ ~iwditempack/tra/russian/wsetup.tra~
+LANGUAGE ~Italian (by Ilot from shsforums.net)~ ~Italian~ ~iwditempack/tra/italian/wsetup.tra~
+LANGUAGE ~Francais (par Graoumf des d'Oghmatiques)~ ~French~ ~iwditempack/tra/french/wsetup.tra~
 
 //////////////////////////////
 // 0 - Black Wolf Talisman //
@@ -20,7 +34,7 @@ COPY ~iwditempack/itm/bwtalis.itm~ ~override~
   SAY NAME1 @2
   SAY UNIDENTIFIED_DESC @3
   SAY NAME2 @4
-  SAY DESC @5
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@5" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
 ADD_STORE_ITEM ~bwtalis~ #1 #1 #1 ~IDENTIFIED~ #1
@@ -32,14 +46,14 @@ ADD_STORE_ITEM ~bwtalis~ #1 #1 #1 ~IDENTIFIED~ #1
 BEGIN @6
 
 COPY ~iwditempack/bam/ichancd.bam~ ~override~
-COPY ~iwditempack/itm/60chancd.itm~ ~override~
+COPY ~iwditempack/itm/xochancd.itm~ ~override~
   SAY NAME1 @7
   SAY UNIDENTIFIED_DESC @8
   SAY NAME2 @9
-  SAY DESC @10
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@10" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~60chancd~ #1 #1 #1 ~IDENTIFIED~ #1
+ADD_STORE_ITEM ~xochancd~ #1 #1 #1 ~IDENTIFIED~ #1
 
 ////////////////////////////////////
 // 2 - House of Despana Insygnia //
@@ -48,17 +62,17 @@ ADD_STORE_ITEM ~60chancd~ #1 #1 #1 ~IDENTIFIED~ #1
 BEGIN @11
 
 COPY ~iwditempack/bam/iamulhd.bam~ ~override~
-COPY ~iwditempack/itm/53amulhd.itm~ ~override~
+COPY ~iwditempack/itm/xoamulhd.itm~ ~override~
   SAY NAME1 @12
   SAY UNIDENTIFIED_DESC @13
   SAY NAME2 @14
-  SAY DESC @15
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@15" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~53amulhd~ #1 #1 #1 ~IDENTIFIED~ #1
+ADD_STORE_ITEM ~xoamulhd~ #1 #1 #1 ~IDENTIFIED~ #1
 
 COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
-  APPEND ~tooltip.2da~ ~53amulhd 99990 99991 99992~
+  APPEND ~tooltip.2da~ ~xoamulhd 99990 99991 99992~
 COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
   REPLACE ~99990~ @16
   REPLACE ~99991~ @17
@@ -71,14 +85,14 @@ COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
 BEGIN @19
 
 COPY ~iwditempack/bam/iax1hks.bam~ ~override~
-COPY ~iwditempack/itm/11hfaxks.itm~ ~override~
+COPY ~iwditempack/itm/xohfaxks.itm~ ~override~
   SAY NAME1 @20
   SAY UNIDENTIFIED_DESC @21
   SAY NAME2 @22
-  SAY DESC @23
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@23" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~11hfaxks~ #1 #1 #1 ~IDENTIFIED~ #1
+ADD_STORE_ITEM ~xohfaxks~ #1 #1 #1 ~IDENTIFIED~ #1
 
 ///////////////////////////////////////
 // 4 - Kresselack's Full Plate Mail //
@@ -91,7 +105,7 @@ COPY ~iwditempack/itm/platblk.itm~ ~override~
   SAY NAME1 @25
   SAY UNIDENTIFIED_DESC @26
   SAY NAME2 @27
-  SAY DESC @28
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@28" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
 ADD_STORE_ITEM ~platblk~ #1 #1 #1 ~IDENTIFIED~ #1
@@ -107,7 +121,7 @@ COPY ~iwditempack/itm/mantlecs.itm~ ~override~
   SAY NAME1 @30
   SAY UNIDENTIFIED_DESC @31
   SAY NAME2 @32
-  SAY DESC @33
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@33" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
 ADD_STORE_ITEM ~mantlecs~ #3 #1 #1 ~IDENTIFIED~ #1
@@ -124,14 +138,14 @@ COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
 BEGIN @35
 
 COPY ~iwditempack/bam/iflailsk.bam~ ~override~
-COPY ~iwditempack/itm/00flal03.itm~ ~override~
+COPY ~iwditempack/itm/xoflal03.itm~ ~override~
   SAY NAME1 @36
   SAY UNIDENTIFIED_DESC @37
   SAY NAME2 @38
-  SAY DESC @39
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@39" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~00flal03~ #1 #1 #1 ~IDENTIFIED~ #1
+ADD_STORE_ITEM ~xoflal03~ #1 #1 #1 ~IDENTIFIED~ #1
 
 /////////////////////////////
 // 7 - Spear of White Ash //
@@ -144,7 +158,7 @@ COPY ~iwditempack/itm/whtash.itm~ ~override~
   SAY NAME1 @41
   SAY UNIDENTIFIED_DESC @42
   SAY NAME2 @43
-  SAY DESC @44
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@44" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
 ADD_STORE_ITEM ~whtash~ #1 #1 #1 ~IDENTIFIED~ #1
@@ -156,17 +170,17 @@ ADD_STORE_ITEM ~whtash~ #1 #1 #1 ~IDENTIFIED~ #1
 BEGIN @45
 
 COPY ~iwditempack/bam/ispernp.bam~ ~override~
-COPY ~iwditempack/itm/11hrsrnp.itm~ ~override~
+COPY ~iwditempack/itm/xohrsrnp.itm~ ~override~
   SAY NAME1 @46
   SAY UNIDENTIFIED_DESC @47
   SAY NAME2 @48
-  SAY DESC @49
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@49" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~11hrsrnp~ #1 #3 #1 ~IDENTIFIED~ #1
+ADD_STORE_ITEM ~xohrsrnp~ #1 #3 #1 ~IDENTIFIED~ #1
 
 COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
-  APPEND ~tooltip.2da~ ~11hrsrnp -1 99990 -1~
+  APPEND ~tooltip.2da~ ~xohrsrnp -1 99990 -1~
 COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
   REPLACE ~99990~ @50
 
@@ -177,14 +191,14 @@ COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
 BEGIN @51
 
 COPY ~iwditempack/bam/iclubbt.bam~ ~override~
-COPY ~iwditempack/itm/50clubbt.itm~ ~override~
+COPY ~iwditempack/itm/xoclubbt.itm~ ~override~
   SAY NAME1 @52
   SAY UNIDENTIFIED_DESC @53
   SAY NAME2 @54
-  SAY DESC @55
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@55" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~50clubbt~ #1 #1 #1 ~IDENTIFIED~ #1
+ADD_STORE_ITEM ~xoclubbt~ #1 #1 #1 ~IDENTIFIED~ #1
 
 ///////////////////////////////////////////
 // 10 - Binding Sash of the Black Raven //
@@ -193,14 +207,14 @@ ADD_STORE_ITEM ~50clubbt~ #1 #1 #1 ~IDENTIFIED~ #1
 BEGIN @56
 
 COPY ~iwditempack/bam/ibeltsb.bam~ ~override~
-COPY ~iwditempack/itm/11hfbtsb.itm~ ~override~
+COPY ~iwditempack/itm/xohfbtsb.itm~ ~override~
   SAY NAME1 @57
   SAY UNIDENTIFIED_DESC @58
   SAY NAME2 @59
-  SAY DESC @60
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@60" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~11hfbtsb~ #1 #1 #1 ~IDENTIFIED~ #1
+ADD_STORE_ITEM ~xohfbtsb~ #1 #1 #1 ~IDENTIFIED~ #1
 
 //////////////////////////////
 // 11 - Young Ned's Knucky //
@@ -209,11 +223,11 @@ ADD_STORE_ITEM ~11hfbtsb~ #1 #1 #1 ~IDENTIFIED~ #1
 BEGIN @61
 
 COPY ~iwditempack/bam/iamul30.bam~ ~override~
-COPY ~iwditempack/itm/11hfamlk.itm~ ~override~
+COPY ~iwditempack/itm/xohfamlk.itm~ ~override~
   SAY NAME1 @62
   SAY UNIDENTIFIED_DESC @63
   SAY NAME2 @64
-  SAY DESC @65
+  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@65" END
 
 COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~11hfamlk~ #1 #1 #1 ~IDENTIFIED~ #1
+ADD_STORE_ITEM ~xohfamlk~ #1 #1 #1 ~IDENTIFIED~ #1
