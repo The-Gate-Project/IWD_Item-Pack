@@ -1,233 +1,367 @@
 BACKUP ~iwditempack/backup~
 AUTHOR ~malek.deneith@trioptimum.com~
 
+VERSION ~1.3~
+
 ALWAYS
-	ACTION_DEFINE_ARRAY xo_reload BEGIN
-	~wsetup.tra~
+
+    // Copies tra files into the autotra-folder (to leave the originals untouched)
+    DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
+      COPY ~%MOD_FOLDER%/tra/english~  ~%MOD_FOLDER%/tra/autotra/%LANGUAGE%~
+      COPY ~%MOD_FOLDER%/tra/%LANGUAGE%~  ~%MOD_FOLDER%/tra/autotra/%LANGUAGE%~
+    END
+
+    LAF autotra_workaround END
+
+// ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
+
+ACTION_DEFINE_ARRAY fl#reload BEGIN wsetup END
+
+    LAF HANDLE_CHARSETS
+      INT_VAR
+        infer_charsets = 1
+      STR_VAR
+        tra_path = EVAL ~%MOD_FOLDER%/tra/autotra~
+        // noconvert_array = fl#noconvert
+        reload_array = fl#reload
 	END
-	ACTION_DEFINE_ARRAY xo_noconvert BEGIN END
-	LAF HANDLE_CHARSETS
-		INT_VAR
-		infer_charset = 1
-		STR_VAR
-		tra_path = EVAL ~%MOD_FOLDER%/tra~
-		noconvert_array = xo_noconvert
-		reload_array = xo_reload
+	
+
+/* ---------------------------------------------------- *
+ *  Copy BAMs or convert them to EE  *
+ * ---------------------------------------------------- */
+ 
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+	INCLUDE ~%MOD_FOLDER%/lib/gw_convert_inventory_bam_to_ee.tpa~			// Loads function converting inventory BAMs to EE.
+	//OUTER_SPRINT file-exc ~ NAME of Bam in FOLDER to EXCLUDE~	// Special cases: unused inventory or description icons, and ability .bam don't need to be converted.
+	PRINT ~Convert BAMs to EE~
+	ACTION_BASH_FOR ~%MOD_FOLDER%/bam/~ ~^.+\.bam$~ BEGIN
+		ACTION_TO_LOWER %BASH_FOR_FILE%
+		ACTION_TO_LOWER %BASH_FOR_RES%
+		ACTION_IF (~%file-exc%~ STRING_CONTAINS_REGEXP ~%BASH_FOR_RES%~ = 1) BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%MOD_FOLDER%/bam/%BASH_FOR_FILE%~
+				LPF ~gw_convert_inventory_bam_to_ee~ END
+			BUT_ONLY
+		END ELSE BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%MOD_FOLDER%/bam/%BASH_FOR_FILE%~
+		END
 	END
-	INCLUDE ~iwditempack/GW_BGEE.tpa~
+END ELSE BEGIN  // If game not EE add Bam without change
+	COPY ~weidu_external/%MOD_FOLDER%/bam~ ~override~
 END
 
+INCLUDE ~%MOD_FOLDER%/lib/gw_functions.tpa~	
+
+END
+
+ASK_EVERY_COMPONENT
+
 LANGUAGE ~English~ ~English~ ~iwditempack/tra/english/wsetup.tra~
+
 LANGUAGE ~Polski~ ~Polski~ ~iwditempack/tra/polish/wsetup.tra~
+
 LANGUAGE ~Russian (by Silent from Arcanecoast.ru)~ ~Russian~ ~iwditempack/tra/russian/wsetup.tra~
+
 LANGUAGE ~Italian (by Ilot from shsforums.net)~ ~Italian~ ~iwditempack/tra/italian/wsetup.tra~
+
 LANGUAGE ~Francais (par Graoumf des d'Oghmatiques)~ ~French~ ~iwditempack/tra/french/wsetup.tra~
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+BEGIN @100  // Install all components at once
+DESIGNATED 100
+LABEL ~Malek-iwditempack_100~
+
+//////////////////////////////
+// 0 - Black Wolf Talisman //
+////////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 1) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Black_Wolf.tpa~
+  END ELSE BEGIN
+	PRINT @1
+	PRINT @102
+  END
+
+/////////////////////////////////
+// 1 - Chain of Drakkas' Fury //
+///////////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 6) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Chain_of_Drakkas.tpa~
+  END ELSE BEGIN
+	PRINT @6
+	PRINT @102
+  END
+
+////////////////////////////////////
+// 2 - House of Despana Insygnia //
+//////////////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 11) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Despana_Insygnia.tpa~
+  END ELSE BEGIN
+	PRINT @11
+	PRINT @102
+  END
+
+/////////////////////////////////////////
+// 3 - Kegsplitter of Shaengarne Ford //
+///////////////////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 19) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Kegsplitter_of_Shaengarne.tpa~
+  END ELSE BEGIN
+	PRINT @19
+	PRINT @102
+  END
+
+///////////////////////////////////////
+// 4 - Kresselack's Full Plate Mail //
+/////////////////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 24) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Kresselack_Plate.tpa~
+  END ELSE BEGIN
+	PRINT @24
+	PRINT @102
+  END
+
+/////////////////////////////////
+// 5 - Mantle of Coming Storm //
+///////////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 29) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Mantle_Coming_Storm.tpa~
+  END ELSE BEGIN
+	PRINT @29
+	PRINT @102
+  END
+
+/////////////////////
+// 6 - SkullFlail //
+///////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 35) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/SkullFlail.tpa~
+  END ELSE BEGIN
+	PRINT @35
+	PRINT @102
+  END
+
+/////////////////////////////
+// 7 - Spear of White Ash //
+///////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 40) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Spear_White_Ash.tpa~
+  END ELSE BEGIN
+	PRINT @40
+	PRINT @102
+  END
+
+///////////////////////
+// 8 - Twelve Paces //
+/////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 45) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Twelve_Paces.tpa~
+  END ELSE BEGIN
+	PRINT @45
+	PRINT @102
+  END
+
+/////////////////////////////////////
+// 9 - Belib's Everlasting Torch //
+///////////////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 51) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Everlasting_Torch.tpa~
+  END ELSE BEGIN
+	PRINT @51
+	PRINT @102
+  END
+
+///////////////////////////////////////////
+// 10 - Binding Sash of the Black Raven //
+/////////////////////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 56) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Sash_Black_Raven.tpa~
+  END ELSE BEGIN
+	PRINT @56
+	PRINT @102
+  END
+
+//////////////////////////////
+// 11 - Young Ned's Knucky //
+////////////////////////////
+
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 61) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Young_Ned_Knucky.tpa~
+  END ELSE BEGIN
+	PRINT @61
+	PRINT @102
+  END
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
 
 //////////////////////////////
 // 0 - Black Wolf Talisman //
 ////////////////////////////
 
 BEGIN @1
+DESIGNATED 1
+LABEL ~Malek-iwditempack_1~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/ibwtalis.bam~ ~override~
-COPY ~iwditempack/itm/bwtalis.itm~ ~override~
-  SAY NAME1 @2
-  SAY UNIDENTIFIED_DESC @3
-  SAY NAME2 @4
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@5" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~bwtalis~ #1 #1 #1 ~IDENTIFIED~ #1
+    INCLUDE ~%MOD_FOLDER%/component/Black_Wolf.tpa~
+	
 
 /////////////////////////////////
 // 1 - Chain of Drakkas' Fury //
 ///////////////////////////////
 
 BEGIN @6
+DESIGNATED 6
+LABEL ~Malek-iwditempack_6~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/ichancd.bam~ ~override~
-COPY ~iwditempack/itm/xochancd.itm~ ~override~
-  SAY NAME1 @7
-  SAY UNIDENTIFIED_DESC @8
-  SAY NAME2 @9
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@10" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~xochancd~ #1 #1 #1 ~IDENTIFIED~ #1
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Chain_of_Drakkas.tpa~
+  END
 
 ////////////////////////////////////
 // 2 - House of Despana Insygnia //
 //////////////////////////////////
 
 BEGIN @11
+DESIGNATED 11
+LABEL ~Malek-iwditempack_11~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/iamulhd.bam~ ~override~
-COPY ~iwditempack/itm/xoamulhd.itm~ ~override~
-  SAY NAME1 @12
-  SAY UNIDENTIFIED_DESC @13
-  SAY NAME2 @14
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@15" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~xoamulhd~ #1 #1 #1 ~IDENTIFIED~ #1
-
-COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
-  APPEND ~tooltip.2da~ ~xoamulhd 99990 99991 99992~
-COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
-  REPLACE ~99990~ @16
-  REPLACE ~99991~ @17
-  REPLACE ~99992~ @18
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Despana_Insygnia.tpa~
+  END
 
 /////////////////////////////////////////
 // 3 - Kegsplitter of Shaengarne Ford //
 ///////////////////////////////////////
 
 BEGIN @19
+DESIGNATED 19
+LABEL ~Malek-iwditempack_19~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/iax1hks.bam~ ~override~
-COPY ~iwditempack/itm/xohfaxks.itm~ ~override~
-  SAY NAME1 @20
-  SAY UNIDENTIFIED_DESC @21
-  SAY NAME2 @22
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@23" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~xohfaxks~ #1 #1 #1 ~IDENTIFIED~ #1
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Kegsplitter_of_Shaengarne.tpa~
+  END
 
 ///////////////////////////////////////
 // 4 - Kresselack's Full Plate Mail //
 /////////////////////////////////////
 
 BEGIN @24
+DESIGNATED 24
+LABEL ~Malek-iwditempack_24~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/iplatblk.bam~ ~override~
-COPY ~iwditempack/itm/platblk.itm~ ~override~
-  SAY NAME1 @25
-  SAY UNIDENTIFIED_DESC @26
-  SAY NAME2 @27
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@28" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~platblk~ #1 #1 #1 ~IDENTIFIED~ #1
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Kresselack_Plate.tpa~
+  END
 
 /////////////////////////////////
 // 5 - Mantle of Coming Storm //
 ///////////////////////////////
 
 BEGIN @29
+DESIGNATED 29
+LABEL ~Malek-iwditempack_29~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/imantlec.bam~ ~override~
-COPY ~iwditempack/itm/mantlecs.itm~ ~override~
-  SAY NAME1 @30
-  SAY UNIDENTIFIED_DESC @31
-  SAY NAME2 @32
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@33" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~mantlecs~ #3 #1 #1 ~IDENTIFIED~ #1
-
-COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
-  APPEND ~tooltip.2da~ ~mantlecs 99990 -1 -1~
-COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
-  REPLACE ~99990~ @34
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Mantle_Coming_Storm.tpa~
+  END
 
 /////////////////////
 // 6 - SkullFlail //
 ///////////////////
 
 BEGIN @35
+DESIGNATED 35
+LABEL ~Malek-iwditempack_35~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/iflailsk.bam~ ~override~
-COPY ~iwditempack/itm/xoflal03.itm~ ~override~
-  SAY NAME1 @36
-  SAY UNIDENTIFIED_DESC @37
-  SAY NAME2 @38
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@39" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~xoflal03~ #1 #1 #1 ~IDENTIFIED~ #1
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/SkullFlail.tpa~
+  END
 
 /////////////////////////////
 // 7 - Spear of White Ash //
 ///////////////////////////
 
 BEGIN @40
+DESIGNATED 40
+LABEL ~Malek-iwditempack_40~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/iwhtash.bam~ ~override~
-COPY ~iwditempack/itm/whtash.itm~ ~override~
-  SAY NAME1 @41
-  SAY UNIDENTIFIED_DESC @42
-  SAY NAME2 @43
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@44" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~whtash~ #1 #1 #1 ~IDENTIFIED~ #1
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Spear_White_Ash.tpa~
+  END
 
 ///////////////////////
 // 8 - Twelve Paces //
 /////////////////////
 
 BEGIN @45
+DESIGNATED 45
+LABEL ~Malek-iwditempack_45~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/ispernp.bam~ ~override~
-COPY ~iwditempack/itm/xohrsrnp.itm~ ~override~
-  SAY NAME1 @46
-  SAY UNIDENTIFIED_DESC @47
-  SAY NAME2 @48
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@49" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~xohrsrnp~ #1 #3 #1 ~IDENTIFIED~ #1
-
-COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
-  APPEND ~tooltip.2da~ ~xohrsrnp -1 99990 -1~
-COPY_EXISTING ~tooltip.2da~ ~override/tooltip.2da~
-  REPLACE ~99990~ @50
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Twelve_Paces.tpa~
+  END
 
 /////////////////////////////////////
 // 9 - Belib's Everlasting Torch //
 ///////////////////////////////////
 
 BEGIN @51
+DESIGNATED 51
+LABEL ~Malek-iwditempack_51~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/iclubbt.bam~ ~override~
-COPY ~iwditempack/itm/xoclubbt.itm~ ~override~
-  SAY NAME1 @52
-  SAY UNIDENTIFIED_DESC @53
-  SAY NAME2 @54
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@55" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~xoclubbt~ #1 #1 #1 ~IDENTIFIED~ #1
-
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Everlasting_Torch.tpa~
+  END
+  
 ///////////////////////////////////////////
 // 10 - Binding Sash of the Black Raven //
 /////////////////////////////////////////
 
 BEGIN @56
+DESIGNATED 56
+LABEL ~Malek-iwditempack_56~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/ibeltsb.bam~ ~override~
-COPY ~iwditempack/itm/xohfbtsb.itm~ ~override~
-  SAY NAME1 @57
-  SAY UNIDENTIFIED_DESC @58
-  SAY NAME2 @59
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@60" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~xohfbtsb~ #1 #1 #1 ~IDENTIFIED~ #1
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Sash_Black_Raven.tpa~
+  END
 
 //////////////////////////////
 // 11 - Young Ned's Knucky //
 ////////////////////////////
 
 BEGIN @61
+DESIGNATED 61
+LABEL ~Malek-iwditempack_61~
+FORBID_COMPONENT ~iwditempack.tp2~ 100 @101
 
-COPY ~iwditempack/bam/iamul30.bam~ ~override~
-COPY ~iwditempack/itm/xohfamlk.itm~ ~override~
-  SAY NAME1 @62
-  SAY UNIDENTIFIED_DESC @63
-  SAY NAME2 @64
-  LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@65" END
-
-COPY_EXISTING ~wmart1.sto~ ~override/wmart1.sto~
-ADD_STORE_ITEM ~xohfamlk~ #1 #1 #1 ~IDENTIFIED~ #1
+  ACTION_IF (NOT MOD_IS_INSTALLED ~iwditempack.tp2~ 100) BEGIN
+    INCLUDE ~%MOD_FOLDER%/component/Young_Ned_Knucky.tpa~
+  END

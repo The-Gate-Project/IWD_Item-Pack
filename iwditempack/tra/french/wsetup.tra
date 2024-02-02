@@ -311,6 +311,11 @@ Chance : +2
 Bonus au jet de sauvegarde : +2 à tous les jets de sauvegarde
 Poids : 0~
 
+@100=~12 nouveaux objets dans le magasin de Joluv~
+@101=~Tous les objets sont deja installes~
+@102=~deja installe
+~
+
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"
 @-1001= "composants optionnels distincts.

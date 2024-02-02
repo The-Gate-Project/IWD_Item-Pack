@@ -1,0 +1,18 @@
+///////////////////////////////////////
+// 4 - Kresselack's Full Plate Mail //
+/////////////////////////////////////
+
+COPY ~weidu_external/%MOD_FOLDER%/bam/iplatblk.bam~ ~override~
+
+COPY ~iwditempack/itm/platblk.itm~ ~override~
+  SAY NAME1 @25
+  SAY UNIDENTIFIED_DESC @26
+  SAY NAME2 @27
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@28" END
+  
+COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~platblk~ flags=~identified~
+    END
+	

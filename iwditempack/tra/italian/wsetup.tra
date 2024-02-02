@@ -1,3 +1,6 @@
+@9001 = ~[Uu]tilizzabile[ %tab%]+\([Ss]olo[ %tab%]+\)?[Dd]a[ %tab%]*:~
+@9002 = ~[Nn]on[ %tab%]+[Uu]tilizzabile[ %tab%]+[Dd]a[ %tab%]*:~
+
 @1=~Talismano del Lupo Nero~
 @2=~Amuleto~
 @3=~Questo è un frammento di roccia piatta con la zampa di un animale dipinta su di esso.~
@@ -317,3 +320,8 @@ STATISTICHE:
 Fortuna: +2
 Bonus ai Tiri Salvezza: +2 su tutti i tiri salvezza
 Peso: 0 kg.~
+
+@100=~12 new items in Joluv store~
+@101=~All items are already installed~
+@102=~already installed
+~

@@ -1,0 +1,18 @@
+/////////////////////
+// 6 - SkullFlail //
+///////////////////
+
+COPY ~weidu_external/%MOD_FOLDER%/bam/iflailsk.bam~ ~override~
+
+COPY ~iwditempack/itm/xoflal03.itm~ ~override~
+  SAY NAME1 @36
+  SAY UNIDENTIFIED_DESC @37
+  SAY NAME2 @38
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@39" END
+
+COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~xoflal03~ flags=~identified~
+    END
+	

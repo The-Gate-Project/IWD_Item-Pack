@@ -1,0 +1,20 @@
+/////////////////////////////////
+// 5 - Mantle of Coming Storm //
+///////////////////////////////
+
+COPY ~weidu_external/%MOD_FOLDER%/bam/imantlec.bam~ ~override~
+
+COPY ~iwditempack/itm/mantlecs.itm~ ~override~
+  SAY NAME1 @30
+  SAY UNIDENTIFIED_DESC @31
+  SAY NAME2 @32
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@33" END
+    OUTER_SET ability1strref = RESOLVE_STR_REF (@34)
+    APPEND ~tooltip.2da~ ~mantlecs    %ability1strref%~
+
+COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~mantlecs~ flags=~identified~
+    END
+	

@@ -1,0 +1,18 @@
+/////////////////////////////////
+// 1 - Chain of Drakkas' Fury //
+///////////////////////////////
+
+COPY ~weidu_external/%MOD_FOLDER%/bam/ichancd.bam~ ~override~
+
+COPY ~iwditempack/itm/xochancd.itm~ ~override~
+  SAY NAME1 @7
+  SAY UNIDENTIFIED_DESC @8
+  SAY NAME2 @9
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@10" END
+  
+COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~xochancd~ flags=~identified~
+    END
+	

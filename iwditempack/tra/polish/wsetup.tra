@@ -1,3 +1,6 @@
+@9001 =~[Mm]oze[ %tab%]+[Uu]zywac[ %tab%]*:~
+@9002 =~[Nn]ie[ %tab%]+[Mm]oze[ %tab%]+[Uu]zywac[ %tab%]*:~
+
 @1=~Talizman Czarnego Wilka~
 @2=~Amulet~
 @3=~Jest to p³aski kamieñ z niedbale wymalowan¹ ³ap¹ zwierzêcia.~
@@ -295,3 +298,8 @@ PARAMETRY:
 +2 do Szczêœcia
 +2 do wszystkich rzutów obronnych
 Waga: 0~
+
+@100=~12 new items in Joluv store~
+@101=~All items are already installed~
+@102=~already installed
+~
