@@ -12,7 +12,7 @@ COPY ~iwditempack/itm/xoamulhd.itm~ ~override~
     OUTER_SET ability1strref = RESOLVE_STR_REF (@16)
     OUTER_SET ability2strref = RESOLVE_STR_REF (@17)
     OUTER_SET ability3strref = RESOLVE_STR_REF (@18)
-    APPEND ~tooltip.2da~ ~xoamulhd    %ability1strref%    %ability2strref%    %ability3strref%~
+    APPEND ~tooltip.2da~ ~xoamulhd   %ability1strref%   %ability2strref%   %ability3strref%         ~
   
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 

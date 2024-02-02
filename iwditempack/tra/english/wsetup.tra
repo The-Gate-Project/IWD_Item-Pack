@@ -1,10 +1,11 @@
 @9001 = ~[Oo]nly[ %tab%]+[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
-@1=~Black Wolf Talisman~
-@2=~Amulet~
-@3=~It's a flat stone with carelessly painted animal paw.~
-@4=~Black Wolf Talisman~
-@5=~This crude talisman appears to be nothing more that a flat piece of stone 
+
+@1 = ~Black Wolf Talisman~
+@2 = ~Amulet~
+@3 = ~It's a flat stone with carelessly painted animal paw.~
+@4 = ~Black Wolf Talisman~
+@5 = ~This crude talisman appears to be nothing more that a flat piece of stone 
  with a wolf's paw painted on it. Despite its simple appearance, the Black 
  Wolf Talisman contains powerful beneficial magic.
 
@@ -16,9 +17,9 @@
    +10% Cold Resistance
    +1 Save vs. Breath
  Weight: 1~
-@6=~Chain of Drakkas' Fury~
-@7=~Chainmail~
-@8=~Chain mail is made of interlocking metal rings.  It is always worn over a 
+@6 = ~Chain of Drakkas' Fury~
+@7 = ~Chainmail~
+@8 = ~Chain mail is made of interlocking metal rings.  It is always worn over a 
   layer of padded fabric or soft leather to prevent chafing and lessen the 
   impact of blows.
 
@@ -31,8 +32,8 @@
    Druid
    Mage
    Thief~
-@9=~Chain of Drakkas' Fury~
-@10=~Drakkas Ranul was an outcast Moon Elf with a huge chip on his shoulder.  At a
+@9 = ~Chain of Drakkas' Fury~
+@10 = ~Drakkas Ranul was an outcast Moon Elf with a huge chip on his shoulder.  At a
 very young age, Drakkas was kidnapped by a Drow raiding party and brought up by
 the Drow to be a pit fighter.  At first he fought his fellow kidnap victims in
 the pits.  However, over time, his fellow abductees died from their wounds and
@@ -79,14 +80,14 @@ The message, of course, was left to the imagination of the interpreter.
   	Speed: 1 additional attack per combat round
   Not Usable By:
    Druid~
-@11=~House of Despana Insignia~
-@12=~Amulet~
-@13=~A necklace is a piece of ornamental metal jewelry usually made of silver, gold,
+@11 = ~House of Despana Insignia~
+@12 = ~Amulet~
+@13 = ~A necklace is a piece of ornamental metal jewelry usually made of silver, gold,
 platinum, or other precious metal, and adorned with gems.  A necklace is always
 worn on the neck and can be of any length.
 Weight:  1 lb.~
-@14=~House of Despana Insignia~
-@15=~This small obsidian and adamantite amulet has a metal hoop near the top through
+@14 = ~House of Despana Insignia~
+@15 = ~This small obsidian and adamantite amulet has a metal hoop near the top through
 which a purple and pink ribbon passes.  The raised surface of the amulet
 features the arrow and hexagon glyph of House Despana.  Malavon Despana crafted
 the amulet for his brother, Ilmryn.  Legends state that when Malavon and his
@@ -106,12 +107,12 @@ Spell Power: Can cast Blur 1/Day
 Spell Power: Can cast Melf's Acid Arrow 1/Day
 Spell Power: Can cast Otiluke's Resilient Sphere 1/Day
 Weight: 1 lb.~
-@16=~Blur~
-@17=~Melf's Acid Arrow~
-@18=~Otiluke's Resilient Sphere~
-@19=~Kegsplitter of Shaengarne Ford~
-@20=~Amulet~
-@21=~The most common version of the battle axe is a stout pole about four feet in length with a 
+@16 = ~Blur~
+@17 = ~Melf's Acid Arrow~
+@18 = ~Otiluke's Resilient Sphere~
+@19 = ~Kegsplitter of Shaengarne Ford~
+@20 = ~Amulet~
+@21 = ~The most common version of the battle axe is a stout pole about four feet in length with a 
 	single-edged, trumpet-shaped blade mounted on one end.  Battle axes are also called broad axes. 
 	
 	STATISTICS:
@@ -127,8 +128,8 @@ Weight: 1 lb.~
 	 Cleric
 	 Mage 
 	 Thief~
-@22=~Kegsplitter of Shaengarne Ford~
-@23=~This worn-looking axe heralds from Shaengarne Ford, a small logging village to
+@22 = ~Kegsplitter of Shaengarne Ford~
+@23 = ~This worn-looking axe heralds from Shaengarne Ford, a small logging village to
 the southwest of Targos that borders the Shaengarne River.  Although a 
 fearsome-looking weapon, the axe looks like it was intended more for splitting 
 kegs and chopping wood than for use in actual combat, and it looks like it has 
@@ -156,9 +157,9 @@ STATISTICS:
 	 Cleric
 	 Mage 
 	 Thief~
-@24=~Kresselack's Full Plate Mail~
-@25=~Full Plate Mail~
-@26=~Full plate armor is the best armor a warrior can buy, both in appearance and 
+@24 = ~Kresselack's Full Plate Mail~
+@25 = ~Full Plate Mail~
+@26 = ~Full plate armor is the best armor a warrior can buy, both in appearance and 
   protection.  The perfectly fitted interlocking plates are specially angled to 
   deflect arrows and blows, and the entire suit is carefully adorned with rich 
   engraving and embossed detail.
@@ -173,8 +174,8 @@ STATISTICS:
    Druid
    Mage
    Thief~
-@27=~Kresselack's Full Plate Mail~
-@28=~This black plate armor once belonged to the barbarian king,
+@27 = ~Kresselack's Full Plate Mail~
+@28 = ~This black plate armor once belonged to the barbarian king,
 Kresselack the Black Wolf. After Kresselack's death, it was lain
 into his tomb along with his body. However, the Black Wolf's
 spirit was punished for his deeds in life and would not find
@@ -199,11 +200,11 @@ tomb spread around the nearby towns.
    Druid
    Mage
    Thief~
-@29=~Mantle of the Coming Storm~
-@30=~Threadbare Robe~
-@31=~Lysan probably left this threadbare robe when she went on a journey to Shadow Dale. Beeing priestess of Auril she probably didn't need it dueing journey through the snow.~
-@32=~Mantle of the Coming Storm~
-@33=~This seemingly threadbare robe had become "dormant" upon Lysan's command, so
+@29 = ~Mantle of the Coming Storm~
+@30 = ~Threadbare Robe~
+@31 = ~Lysan probably left this threadbare robe when she went on a journey to Shadow Dale. Beeing priestess of Auril she probably didn't need it dueing journey through the snow.~
+@32 = ~Mantle of the Coming Storm~
+@33 = ~This seemingly threadbare robe had become "dormant" upon Lysan's command, so
   as not to expose herself as a priestess of Auril. When as much as a single 
   snowflake falls upon the robe, it transforms into a scintillating cloak of 
   white that allows the wielder to float above snow drifts and walk through 
@@ -234,10 +235,10 @@ tomb spread around the nearby towns.
     +30% Fire Resistance
   Weight:  1
   Not usable by:~
-@34=~Free Action~
-@35=~SkullFlail~
-@36=~Flail~
-@37=~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod 
+@34 = ~Free Action~
+@35 = ~SkullFlail~
+@36 = ~Flail~
+@37 = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod 
   with spikes, or a spiked iron ball. Between the handle and its implement is 
   either a hinge or chain link.  The weapon was originally used as a tool for 
   threshing grain.
@@ -255,8 +256,8 @@ tomb spread around the nearby towns.
    Druid
    Mage
    Thief~
-@38=~SkullFlail~
-@39=~Skullflail, or "The Flail of Teeth" as it is more commonly known, was
+@38 = ~SkullFlail~
+@39 = ~Skullflail, or "The Flail of Teeth" as it is more commonly known, was
 constructed in 1035 DR for the barbarian warlord Wychgar. During a battle in 
 the northern wastes which became known as Hallowed Pass, Wychgar lost his three
 brothers to the orc army led by Kraag the Mighty. Wychgar was distraught and
@@ -286,9 +287,9 @@ and rendering flesh.
    Druid
    Mage
    Thief~
-@40=~Spear of White Ash~
-@41=~Spear~
-@42=~One of man's earliest weapons, dating back to the most primitive of times, 
+@40 = ~Spear of White Ash~
+@41 = ~Spear~
+@42 = ~One of man's earliest weapons, dating back to the most primitive of times, 
   the first spears were simply wooden poles or sticks sharpened at one end.  
   When man mastered metals, spearheads were made from iron and steel.  Having 
   reached this end, weaponers began experimenting with different types of spear 
@@ -306,8 +307,8 @@ and rendering flesh.
    Cleric
    Mage
    Thief~
-@43=~Spear of White Ash~
-@44=~Consecrated by Malarite priests hundreds of years ago, this spear was used on 
+@43 = ~Spear of White Ash~
+@44 = ~Consecrated by Malarite priests hundreds of years ago, this spear was used on 
   High Hunts in preparation for their bloody feasts.  It was last in the hands 
   of Old Hunter Wellin, who is believed to have died when he foolishly hunted 
   dryads near the Cloakwood.  The weapon is made from a single piece of ash 
@@ -328,9 +329,9 @@ and rendering flesh.
    Cleric
    Mage
    Thief~
-@45=~Twelve Paces~
-@46=~Spear~
-@47=~One of man's earliest weapons, dating back to the most primitive of times, 
+@45 = ~Twelve Paces~
+@46 = ~Spear~
+@47 = ~One of man's earliest weapons, dating back to the most primitive of times, 
   the first spears were simply wooden poles or sticks sharpened at one end.  
   When man mastered metals, spearheads were made from iron and steel.  Having 
   reached this end, weaponers began experimenting with different types of spear 
@@ -348,8 +349,8 @@ and rendering flesh.
    Cleric
    Mage
    Thief~
-@48=~Twelve Paces~
-@49=~This long spear is made of a thick shaft of oak, and it looks like it has been
+@48 = ~Twelve Paces~
+@49 = ~This long spear is made of a thick shaft of oak, and it looks like it has been
   used extensively in hunting arctic boars.  It bears numerous sigils and runes
   along its haft to help it strike straight and true, and when held in a life or
   death situation, the spear can lash out at an opponent up to five lengths from
@@ -371,10 +372,10 @@ and rendering flesh.
    Cleric
    Mage
    Thief~
-@50=~Lower Resistance~
-@51=~Belib's Everlasting Torch~
-@52=~Club~
-@53=~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end.
+@50 = ~Lower Resistance~
+@51 = ~Belib's Everlasting Torch~
+@52 = ~Club~
+@53 = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end.
 This simple weapon has been used since mankind first began using tools.  Anyone
 can find a good stout piece of wood and swing it; hence the club's widespread
 use.
@@ -390,8 +391,8 @@ STATISTICS:
   Requires: 5 Strength
   Not Usable By:
    Mage~
-@54=~Belib's Everlasting Torch~
-@55=~Belib the Wary was arguably the best-equipped adventurer the realms had ever
+@54 = ~Belib's Everlasting Torch~
+@55 = ~Belib the Wary was arguably the best-equipped adventurer the realms had ever
 known - or would have been, had he ever actually left his home on one.  Just 
 one item from his astounding list of enchanted dungeoneering equipment is his
 Everlasting Torch.  A magical lantern fashioned in the shape of an elaborate
@@ -429,13 +430,13 @@ STATISTICS:
   Requires: 5 Strength
   Not Usable By:
    Mage~
-@56=~Binding Sash of the Black Raven~
-@57=~Girdle~
-@58=~Girdles are generally similar to belts.  Unlike belts, girdles are not used 
+@56 = ~Binding Sash of the Black Raven~
+@57 = ~Girdle~
+@58 = ~Girdles are generally similar to belts.  Unlike belts, girdles are not used 
   to hold up pants and dungarees, but to carry pouches, scabbards, and the 
   like.~
-@59=~Binding Sash of the Black Raven~
-@60=~The Sash of the Black Raven is rumored to be a symbol of one of the disciples 
+@59 = ~Binding Sash of the Black Raven~
+@60 = ~The Sash of the Black Raven is rumored to be a symbol of one of the disciples 
 of the Black Raven monastery, a sanctuary located deep within the heart of the
 Spine of the World Mountains.  According to legend, the Black Raven is a near
 mythical figure in Uthgardt legends, a punishing spirit from the underworld who
@@ -461,13 +462,13 @@ Special:
   Spellward:  Immunity to the spells Confusion, Feeblemind, Sleep, 
    Charm Person, and Cloak of Fear
 Weight: 0~
-@61=~Young Ned's Knucky~
-@62=~Necklace~
-@63=~A necklace is a piece of ornamental metal jewelry usually made of silver, 
+@61 = ~Young Ned's Knucky~
+@62 = ~Necklace~
+@63 = ~A necklace is a piece of ornamental metal jewelry usually made of silver, 
   gold, platinum, or other precious metals, and adorned with gems.  A necklace 
   is always worn on the neck and can be of any length.~
-@64=~Young Ned's Knucky~
-@65=~This barely recognizable lump of fish bone has been carried as good luck charm
+@64 = ~Young Ned's Knucky~
+@65 = ~This barely recognizable lump of fish bone has been carried as good luck charm
 in Targos for almost twenty years.  The item's history started with the sailor
 Young Ned of Lonelywood.  On one of his fishing trips near Targos, his small
 boat capsized near the Maer Dualdon shore.  He held onto his prize catch, an
@@ -491,7 +492,7 @@ Luck: +2
 Saving Throw Bonus: +2 to all saving throws
 Weight: 0 lb.~
 
-@100=~12 new items in Joluv store~
-@101=~All items are already installed~
-@102=~already installed
+@100 = ~12 new items in Joluv store~
+@101 = ~All items are already installed~
+@102 = ~already installed
 ~

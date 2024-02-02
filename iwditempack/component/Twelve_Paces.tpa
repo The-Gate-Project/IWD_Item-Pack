@@ -10,7 +10,7 @@ COPY ~iwditempack/itm/xohrsrnp.itm~ ~override~
   SAY NAME2 @48
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@49" END
     OUTER_SET ability1strref = RESOLVE_STR_REF (@50)
-    APPEND ~tooltip.2da~ ~xohrsrnp    %ability1strref%~
+    APPEND ~tooltip.2da~ ~xohrsrnp   %ability1strref%      -1         -1         ~
 
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 

@@ -1,7 +1,9 @@
-BACKUP ~iwditempack/backup~
+BACKUP ~weidu_external/%MOD_FOLDER%/backup~
 AUTHOR ~malek.deneith@trioptimum.com~
 
 VERSION ~1.3~
+
+README ~iwditempack/readme-iwditempack.txt~
 
 ALWAYS
 
@@ -59,7 +61,7 @@ ASK_EVERY_COMPONENT
 
 LANGUAGE ~English~ ~English~ ~iwditempack/tra/english/wsetup.tra~
 
-LANGUAGE ~Polski~ ~Polski~ ~iwditempack/tra/polish/wsetup.tra~
+LANGUAGE ~Polski~ ~polish~ ~iwditempack/tra/polish/wsetup.tra~
 
 LANGUAGE ~Russian (by Silent from Arcanecoast.ru)~ ~Russian~ ~iwditempack/tra/russian/wsetup.tra~
 

@@ -1,11 +1,11 @@
 @9001 = ~[Uu]tilizzabile[ %tab%]+\([Ss]olo[ %tab%]+\)?[Dd]a[ %tab%]*:~
 @9002 = ~[Nn]on[ %tab%]+[Uu]tilizzabile[ %tab%]+[Dd]a[ %tab%]*:~
 
-@1=~Talismano del Lupo Nero~
-@2=~Amuleto~
-@3=~Questo è un frammento di roccia piatta con la zampa di un animale dipinta su di esso.~
-@4=~Talismano del Lupo Nero~
-@5=~Questo rozzo talismano sembra essere nulla più che un pezzo di roccia piatta con la zampa di un lupo dipinta su di esso. Nonostante il suo aspetto semplice, il Talismano del Lupo Nero contiene una potente magia benefica.
+@1 = ~Talismano del Lupo Nero~
+@2 = ~Amuleto~
+@3 = ~Questo è un frammento di roccia piatta con la zampa di un animale dipinta su di esso.~
+@4 = ~Talismano del Lupo Nero~
+@5 = ~Questo rozzo talismano sembra essere nulla più che un pezzo di roccia piatta con la zampa di un lupo dipinta su di esso. Nonostante il suo aspetto semplice, il Talismano del Lupo Nero contiene una potente magia benefica.
 
  STATISTICHE:
 
@@ -15,9 +15,9 @@
    +10% di Resistenza al Freddo
    +1 al Tiro Salvezza contro Soffio
  Peso: 1~
-@6=~Catena della Furia di Drakkas~
-@7=~Corazza di Maglia~
-@8=~La corazza di maglia è fatta di anelli di metallo incastrati tra loro. Viene sempre indossata sopra uno strato imbottito di tessuto o di cuoio morbido per evitare sfregamenti e attutire l'impatto dei colpi.
+@6 = ~Catena della Furia di Drakkas~
+@7 = ~Corazza di Maglia~
+@8 = ~La corazza di maglia è fatta di anelli di metallo incastrati tra loro. Viene sempre indossata sopra uno strato imbottito di tessuto o di cuoio morbido per evitare sfregamenti e attutire l'impatto dei colpi.
 
   STATISTICHE:
 
@@ -28,8 +28,8 @@
    Druido
    Mago
    Ladro~
-@9=~Catena della Furia di Drakkas~
-@10=~Drakkas Ranul era un Elfo della Luna rinnegato, che portava un grosso peso sulle spalle. Quando era ancora molto giovane, fu rapito durante una razzia dei Drow e portato presso di loro per combattere nella Fossa. All'inizio fu costretto a combattere quelli che erano stati rapiti con lui. Però con il tempo i suoi compagni morirono a causa delle ferite e delle misere condizioni di vita, lasciando Drakkas da solo a combattere mostri scelti dai drow. Drakkas  teneva duro, alimentato dal suo crescente odio per i suoi rapitori, nella speranza di riuscire prima o poi a fuggire e a vendicarsi di loro.
+@9 = ~Catena della Furia di Drakkas~
+@10 = ~Drakkas Ranul era un Elfo della Luna rinnegato, che portava un grosso peso sulle spalle. Quando era ancora molto giovane, fu rapito durante una razzia dei Drow e portato presso di loro per combattere nella Fossa. All'inizio fu costretto a combattere quelli che erano stati rapiti con lui. Però con il tempo i suoi compagni morirono a causa delle ferite e delle misere condizioni di vita, lasciando Drakkas da solo a combattere mostri scelti dai drow. Drakkas  teneva duro, alimentato dal suo crescente odio per i suoi rapitori, nella speranza di riuscire prima o poi a fuggire e a vendicarsi di loro.
 
 Un giorno Drakkas vide esaudito il proprio desiderio: riuscì a scappare rubando la chiave della sua cella  alla guardia, e fuggì nell'Underdark non visto. Riuscì anche a rubare un paio di scimitarre, che gli tornarono utili mentre percorreva i contorti corridoi dell'Underdark. Quando poi arrivò in superficie, si mise immediatamente alla ricerca dei suoi fratelli, gli Elfi della Luna.
 
@@ -49,12 +49,12 @@ Drakkas si allontanò da tutti quelli che lo conoscevano e che si erano serviti d
   	Velocità: 1 attacco aggiuntivo per round
   Non utilizzabile da:
    Druido~
-@11=~Insegne della Casata Despana~
-@12=~Amuleto~
-@13=~ La collana è un elemento metallico ornamentale di gioielleria di solito d'argento, d'oro, di platino o di altri metalli preziosi e adornata con gemme. La collana si porta al collo e può avere qualsiasi lunghezza.
+@11 = ~Insegne della Casata Despana~
+@12 = ~Amuleto~
+@13 = ~ La collana è un elemento metallico ornamentale di gioielleria di solito d'argento, d'oro, di platino o di altri metalli preziosi e adornata con gemme. La collana si porta al collo e può avere qualsiasi lunghezza.
 Peso: 0,45 kg.~
-@14=~Insegne della Casata Despana~
-@15=~Questo piccolo amuleto di ossidiana e adamantite reca un cerchio di metallo vicino alla sommità, attraversato da un nastro purpureo e rosa. La superficie in rilievo dell'amuleto reca il glifo composto da freccia ed esagono della Casata Despana. Malavon Despana realizzò con le sue mani l'amuleto per suo fratello, Ilmryn. Le leggende raccontano che quando Malavon e i suoi alleati nella chiesa di Vhaeraun attaccarono il matriarcato di Lolth, egli dovette affrontare suo fratello, allora Maestro d'Armi della Casata Despana, in una battaglia accanita. Proprio quando Ilmryn ebbe la meglio su di lui, Malavon pronunciò una parola segreta che invocò una potenza sconosciuta all'interno dell'amuleto. Ilmryn fu circondato da una barriera magica che lo protesse da ogni danno. Poiché si trattava apparentemente di un effetto magico vantaggioso, la resistenza magica naturale di Ilmryn non lo aiutò a opporsi alla potenza dell'amuleto. Quando il Maestro d'Armi emerse dalla sfera protettiva, si trovò faccia a faccia con più di una dozzina dei tanar'ri più potenti che avesse mai visto. Morì fra le urla, maledicendo il nome di suo fratello.
+@14 = ~Insegne della Casata Despana~
+@15 = ~Questo piccolo amuleto di ossidiana e adamantite reca un cerchio di metallo vicino alla sommità, attraversato da un nastro purpureo e rosa. La superficie in rilievo dell'amuleto reca il glifo composto da freccia ed esagono della Casata Despana. Malavon Despana realizzò con le sue mani l'amuleto per suo fratello, Ilmryn. Le leggende raccontano che quando Malavon e i suoi alleati nella chiesa di Vhaeraun attaccarono il matriarcato di Lolth, egli dovette affrontare suo fratello, allora Maestro d'Armi della Casata Despana, in una battaglia accanita. Proprio quando Ilmryn ebbe la meglio su di lui, Malavon pronunciò una parola segreta che invocò una potenza sconosciuta all'interno dell'amuleto. Ilmryn fu circondato da una barriera magica che lo protesse da ogni danno. Poiché si trattava apparentemente di un effetto magico vantaggioso, la resistenza magica naturale di Ilmryn non lo aiutò a opporsi alla potenza dell'amuleto. Quando il Maestro d'Armi emerse dalla sfera protettiva, si trovò faccia a faccia con più di una dozzina dei tanar'ri più potenti che avesse mai visto. Morì fra le urla, maledicendo il nome di suo fratello.
 
 STATISTICHE:
 
@@ -62,12 +62,12 @@ Incantesimi: può lanciare Sfocatura 1/giorno
 Incantesimi: può lanciare Freccia Acida di Melf 1/giorno
 Incantesimi:  Può lanciare Sfera Elastica di Otiluke 1/giorno
 Peso: 0,45 kg.~
-@16=~Sfocatura~
-@17=~Freccia Acida di Melf~
-@18=~Sfera Elastica di Otiluke~
-@19=~Spaccabarili del Guado Shaengarne~
-@20=~Amuleto~
-@21=~La versione più comune dell'ascia da battaglia è un'asta robusta lunga circa 1,20 m con una lama imbutiforme affilata da una sola parte applicata su una delle due estremità. Le asce da battaglia vengono anche chiamate asce larghe. 
+@16 = ~Sfocatura~
+@17 = ~Freccia Acida di Melf~
+@18 = ~Sfera Elastica di Otiluke~
+@19 = ~Spaccabarili del Guado Shaengarne~
+@20 = ~Amuleto~
+@21 = ~La versione più comune dell'ascia da battaglia è un'asta robusta lunga circa 1,20 m con una lama imbutiforme affilata da una sola parte applicata su una delle due estremità. Le asce da battaglia vengono anche chiamate asce larghe. 
 	
 	STATISTICHE:
 	
@@ -82,8 +82,8 @@ Peso: 0,45 kg.~
 	 Chierico
 	 Mago 
 	 Ladro~
-@22=~Spaccabarili del Guado Shaengarne~
-@23=~Questa logora ascia proviene dal Guado di Shaengarne, un piccolo villaggio di boscaioli a sudovest di Targos, lungo il Fiume Shaengarne. Sebbene appaia spaventosa, l'ascia sembra essere stata destinata più a spaccare barilotti e tagliare la legna che per l'uso in combattimento, e sembra essere stata usata per abbattere un bel numero di alberi.
+@22 = ~Spaccabarili del Guado Shaengarne~
+@23 = ~Questa logora ascia proviene dal Guado di Shaengarne, un piccolo villaggio di boscaioli a sudovest di Targos, lungo il Fiume Shaengarne. Sebbene appaia spaventosa, l'ascia sembra essere stata destinata più a spaccare barilotti e tagliare la legna che per l'uso in combattimento, e sembra essere stata usata per abbattere un bel numero di alberi.
 
 Spaccabarili fu molto probabilmente venduta al Deposito di Commercio Gallaway in cambio di cibo e provviste che dovevano durare al Guado di Shaengarne per tutta la stagione. Sebbene le grandi dimensioni e il peso la rendano più lenta di una normale accetta, nel manico sono stati incisi incantesimi minori di ferimento e di mantenimento dell'affilatura, permettendole di fare a pezzi con facilità barilotti e goblin.
 
@@ -103,9 +103,9 @@ STATISTICHE:
 	 Chierico
 	 Mago 
 	 Ladro~
-@24=~Corazza di piastre completa di Kresselack~
-@25=~Corazza di piastre completa~
-@26=~La corazza di piastre completa è la miglior corazza che un guerriero possa acquistare, sia per l'aspetto che per il tipo di protezione. Le piastre, perfettamente attaccate una all'altra, sono inclinate in modo da deviare frecce e colpi e tutto l'abito abbellito con intarsi e ricami.
+@24 = ~Corazza di piastre completa di Kresselack~
+@25 = ~Corazza di piastre completa~
+@26 = ~La corazza di piastre completa è la miglior corazza che un guerriero possa acquistare, sia per l'aspetto che per il tipo di protezione. Le piastre, perfettamente attaccate una all'altra, sono inclinate in modo da deviare frecce e colpi e tutto l'abito abbellito con intarsi e ricami.
 
   STATISTICHE:
 
@@ -117,8 +117,8 @@ STATISTICHE:
    Druido
    Mago
    Ladro~
-@27=~Corazza di piastre completa di Kresselack~
-@28=~Questa armatura di piastre apparteneva al re barbaro, Kresselack il Lupo Nero. Dopo la morte Kresselack giaceva in una tomba con il suo corpo. Tuttavia lo spirito del Lupo Nero fu punito per le sue azioni durante la sua vita e non trovò la pace nella morte. Fu solo qualche anno dopo il Periodo dei Disordini che un viaggiatore, un sacerdote di Kelemvor lo liberò dal suo tormento. Tuttavia, alcuni legami con l’anima di Kresselack sono rimasti sulla terra, e sono legati alla sua armatura, la quale fornisce alcune abilità.
+@27 = ~Corazza di piastre completa di Kresselack~
+@28 = ~Questa armatura di piastre apparteneva al re barbaro, Kresselack il Lupo Nero. Dopo la morte Kresselack giaceva in una tomba con il suo corpo. Tuttavia lo spirito del Lupo Nero fu punito per le sue azioni durante la sua vita e non trovò la pace nella morte. Fu solo qualche anno dopo il Periodo dei Disordini che un viaggiatore, un sacerdote di Kelemvor lo liberò dal suo tormento. Tuttavia, alcuni legami con l’anima di Kresselack sono rimasti sulla terra, e sono legati alla sua armatura, la quale fornisce alcune abilità.
 
 Ovviamente l’armatura fu più volte saccheggiata dai ladri di tombe non appena si sparse la notizia alle vicine città della liberazione dello spirito della tomba.
 
@@ -133,11 +133,11 @@ Ovviamente l’armatura fu più volte saccheggiata dai ladri di tombe non appena si
    Druido
    Mago
    Ladro~
-@29=~Manto della Tempesta Incombente~
-@30=~Abito Logoro~
-@31=~Lysan apparentemente ha abbandonato questa veste logora e consunta, alla partenza per il suo pellegrinaggio nella Valle delle Ombre. In qualità di sacerdotessa di Auril, probabilmente non ne aveva alcun bisogno per viaggiare nelle nevi.~
-@32=~Manto della Tempesta Incombente~
-@33=~Questa tunica dall'aspetto di uno straccio logoro si è "disattivata" dietro comando di Lysan, così da non rendere manifesta la sua identità di sacerdotessa di Auril. Quand'anche un singolo fiocco di neve cade sulla tunica, essa si trasforma in uno scintillante mantello bianco che permette a chi lo indossa di fluttuare nelle tormente di neve e di camminare con facilità anche attraverso fiumi in piena. La maggior parte dei mercanti non acquisterebbe mai tale mantello, o lo farebbe a prezzi molto bassi, poiché si tratta di un oggetto sacro alla Vergine dei Ghiacci Auril, e non è conveniente attirare i suoi fedeli o... la sua collera.
+@29 = ~Manto della Tempesta Incombente~
+@30 = ~Abito Logoro~
+@31 = ~Lysan apparentemente ha abbandonato questa veste logora e consunta, alla partenza per il suo pellegrinaggio nella Valle delle Ombre. In qualità di sacerdotessa di Auril, probabilmente non ne aveva alcun bisogno per viaggiare nelle nevi.~
+@32 = ~Manto della Tempesta Incombente~
+@33 = ~Questa tunica dall'aspetto di uno straccio logoro si è "disattivata" dietro comando di Lysan, così da non rendere manifesta la sua identità di sacerdotessa di Auril. Quand'anche un singolo fiocco di neve cade sulla tunica, essa si trasforma in uno scintillante mantello bianco che permette a chi lo indossa di fluttuare nelle tormente di neve e di camminare con facilità anche attraverso fiumi in piena. La maggior parte dei mercanti non acquisterebbe mai tale mantello, o lo farebbe a prezzi molto bassi, poiché si tratta di un oggetto sacro alla Vergine dei Ghiacci Auril, e non è conveniente attirare i suoi fedeli o... la sua collera.
 
 Create durante la cerimonia della Tempesta Incombente (all'inizio dell'inverno) in onore di Auril, queste vesti sono appositamente rese impervie al fuoco e permettono a chi le indossa di evitare qualunque tentativo venga fatto per bloccarli o impedirne i movimenti. Sebbene le sacerdotesse di Auril siano resistenti al freddo e possano muoversi tranquillamente nella neve e nei fiumi gelidi, questi mantelli amplificano la protezione loro concessa dalla dea e garantiscono loro una resistenza al freddo addizionale (che permette a coloro già immuni al freddo di assorbirne il potere); inoltre, l'enorme potere di queste vesti permette anche di ridurre considerevolmente la potenza degli attacchi da fuoco diretti contro chi le indossa. Oltre a tutto ciò il potere di queste vesti può essere invocato al fine di proteggere chi la indossa e di permettergli di superare ostacoli creati apposta per bloccarli, come l'incantesimo Ragnatela, la paralisi dei ghoul, l'incantesimo Bloccapersone e simili.
 
@@ -151,10 +151,10 @@ Create durante la cerimonia della Tempesta Incombente (all'inizio dell'inverno) 
     +30% di Resistenza al Fuoco
   Peso: 1
   Non utilizzabile da:~
-@34=~Libertà d'Azione~
-@35=~Mazzafrusto del Teschio~
-@36=~Mazzafrusto~
-@37=~Il mazzafrusto è una impugnatura di legno robusto applicata a una mazza di ferro, a una mazza di legno con dei chiodi oppure una palla di ferro chiodata. Tra l'impugnatura e il suo strumento c'è una cerniera oppure un anello. L'arma veniva originariamente usata per trebbiare il grano.
+@34 = ~Libertà d'Azione~
+@35 = ~Mazzafrusto del Teschio~
+@36 = ~Mazzafrusto~
+@37 = ~Il mazzafrusto è una impugnatura di legno robusto applicata a una mazza di ferro, a una mazza di legno con dei chiodi oppure una palla di ferro chiodata. Tra l'impugnatura e il suo strumento c'è una cerniera oppure un anello. L'arma veniva originariamente usata per trebbiare il grano.
 
   STATISTICHE:
 
@@ -169,8 +169,8 @@ Create durante la cerimonia della Tempesta Incombente (all'inizio dell'inverno) 
    Druido
    Mago
    Ladro~
-@38=~Mazzafrusto del Teschio~
-@39=~Il Mazzafrusto del Teschio, o "Il Mazzafrusto dei denti", come è più comunemente noto, venne costruito nel 1035 CV per il signore della guerra barbaro Wychgar. Durante una battaglia nelle desolazioni settentrionali che divennero note come Passo Consacrato, Wychgar perse i suoi tre fratelli per mano dell'esercito orchesco guidato da Kraag il Potente. Wychgar si sentiva distrutto e durante la notte vagò per il campo di battaglia cercando i loro corpi per portarli via e dare loro un'adeguata sepoltura. Li trovò casualmente e gli apparvero gli spiriti dei fratelli, prigionieri tra la terra dei vivi e quella dei morti. Incapace di aiutarli ad andarsene, egli fece porre le loro anime nel mazzafrusto con l'aiuto di uno sciamano.
+@38 = ~Mazzafrusto del Teschio~
+@39 = ~Il Mazzafrusto del Teschio, o "Il Mazzafrusto dei denti", come è più comunemente noto, venne costruito nel 1035 CV per il signore della guerra barbaro Wychgar. Durante una battaglia nelle desolazioni settentrionali che divennero note come Passo Consacrato, Wychgar perse i suoi tre fratelli per mano dell'esercito orchesco guidato da Kraag il Potente. Wychgar si sentiva distrutto e durante la notte vagò per il campo di battaglia cercando i loro corpi per portarli via e dare loro un'adeguata sepoltura. Li trovò casualmente e gli apparvero gli spiriti dei fratelli, prigionieri tra la terra dei vivi e quella dei morti. Incapace di aiutarli ad andarsene, egli fece porre le loro anime nel mazzafrusto con l'aiuto di uno sciamano.
 
 Le tre teste del mazzafrusto sono i crani dei suoi fratelli, collegati all'asta da catene d'argento. I tre teschi ghignano follemente alla loro nuova vita. Quando il mazzafrusto viene usato in combattimento le tre teste mordono il bersaglio, lacerando e smembrando la carne.
 
@@ -189,9 +189,9 @@ Le tre teste del mazzafrusto sono i crani dei suoi fratelli, collegati all'asta 
    Druido
    Mago
    Ladro~
-@40=~Lancia della Cenere Bianca~
-@41=~Lancia~
-@42=~Le prime lance, tra le armi più primitive usate dall'uomo e risalenti a tempi antichissimi, erano semplici aste di legno o pali appuntiti a una estremità. Quando l'uomo imparò a lavorare i metalli, le punte delle lance divennero di ferro e di acciaio. A questo punto i costruttori di armi iniziarono a sperimentare con nuovi tipi di punte di lance, sviluppando alcuni tipi di arma lunga.
+@40 = ~Lancia della Cenere Bianca~
+@41 = ~Lancia~
+@42 = ~Le prime lance, tra le armi più primitive usate dall'uomo e risalenti a tempi antichissimi, erano semplici aste di legno o pali appuntiti a una estremità. Quando l'uomo imparò a lavorare i metalli, le punte delle lance divennero di ferro e di acciaio. A questo punto i costruttori di armi iniziarono a sperimentare con nuovi tipi di punte di lance, sviluppando alcuni tipi di arma lunga.
 
   STATISTICHE:
 
@@ -205,8 +205,8 @@ Le tre teste del mazzafrusto sono i crani dei suoi fratelli, collegati all'asta 
    Chierico
    Mago
    Ladro~
-@43=~Lancia della Cenere Bianca~
-@44=~Consacrato dai sacerdoti di Malarite secoli or sono, questa lancia era utilizzata nelle Alte Battute di Caccia per preparare i loro banchetti di sangue.  L'ultimo a brandirla fu Wellin il Vecchio Cacciatore, che si ritiene sia morto dando stolidamente la caccia alle driadi vicino a Bosco Ammantato.  L'arma è costituita da un singolo pezzo di legno color cenere che reca sulla sommità una punta di lancia uncinata.
+@43 = ~Lancia della Cenere Bianca~
+@44 = ~Consacrato dai sacerdoti di Malarite secoli or sono, questa lancia era utilizzata nelle Alte Battute di Caccia per preparare i loro banchetti di sangue.  L'ultimo a brandirla fu Wellin il Vecchio Cacciatore, che si ritiene sia morto dando stolidamente la caccia alle driadi vicino a Bosco Ammantato.  L'arma è costituita da un singolo pezzo di legno color cenere che reca sulla sommità una punta di lancia uncinata.
 
   STATISTICHE:
 
@@ -222,9 +222,9 @@ Le tre teste del mazzafrusto sono i crani dei suoi fratelli, collegati all'asta 
    Chierico
    Mago
    ladro~
-@45=~Dodici Passi~
-@46=~Landia~
-@47=~Le prime lance, tra le armi più primitive usate dall'uomo e risalenti a tempi antichissimi, erano semplici aste di legno o pali appuntiti a una estremità. Quando l'uomo imparò a lavorare i metalli, le punte delle lance divennero di ferro e di acciaio. A questo punto i costruttori di armi iniziarono a sperimentare con nuovi tipi di punte di lance, sviluppando alcuni tipi di arma lunga.
+@45 = ~Dodici Passi~
+@46 = ~Landia~
+@47 = ~Le prime lance, tra le armi più primitive usate dall'uomo e risalenti a tempi antichissimi, erano semplici aste di legno o pali appuntiti a una estremità. Quando l'uomo imparò a lavorare i metalli, le punte delle lance divennero di ferro e di acciaio. A questo punto i costruttori di armi iniziarono a sperimentare con nuovi tipi di punte di lance, sviluppando alcuni tipi di arma lunga.
 
   STATISTICHE:
 
@@ -238,8 +238,8 @@ Le tre teste del mazzafrusto sono i crani dei suoi fratelli, collegati all'asta 
    Chierico
    Mago
    Ladro~
-@48=~Dodici Passi~
-@49=~Questa lunga lancia è fatta di una spessa asta di quercia, e sembra essere stata usata intensamente nella caccia del cinghiale artico. Lungo l'asta si trovano numerosi sigilli e rune che l'aiutano a colpire con precisione e senza fallo, e in situazione di vita o di morte, può colpire un avversario fino a cinque lunghezze dal portatore, abbattendo la vittima prima che arrivi a distanza sufficiente per un combattimento corpo a corpo. 
+@48 = ~Dodici Passi~
+@49 = ~Questa lunga lancia è fatta di una spessa asta di quercia, e sembra essere stata usata intensamente nella caccia del cinghiale artico. Lungo l'asta si trovano numerosi sigilli e rune che l'aiutano a colpire con precisione e senza fallo, e in situazione di vita o di morte, può colpire un avversario fino a cinque lunghezze dal portatore, abbattendo la vittima prima che arrivi a distanza sufficiente per un combattimento corpo a corpo. 
 
   STATISTICHE:
 
@@ -257,10 +257,10 @@ Le tre teste del mazzafrusto sono i crani dei suoi fratelli, collegati all'asta 
    Chierico
    Mago
    Ladro~
-@50=~Abbassare la Resistenza~
-@51=~Torcia Eterna di Belib~
-@52=~Clava~
-@53=~ Le clave sono in genere bastoni di legno stretti all'impugnatura e più larghi all'altra estremità. Queste armi dalla struttura molto semplice sono state tra le prime utilizzate dagli uomini. E facile trovare un buon pezzo di legno con cui colpire ed è per questo che la clava si è diffusa molto.
+@50 = ~Abbassare la Resistenza~
+@51 = ~Torcia Eterna di Belib~
+@52 = ~Clava~
+@53 = ~ Le clave sono in genere bastoni di legno stretti all'impugnatura e più larghi all'altra estremità. Queste armi dalla struttura molto semplice sono state tra le prime utilizzate dagli uomini. E facile trovare un buon pezzo di legno con cui colpire ed è per questo che la clava si è diffusa molto.
 
 STATISTICHE:
 
@@ -273,8 +273,8 @@ STATISTICHE:
   Richiede: 5 alla Forza
   Non utilizzabile da:
    Mago~
-@54=~Torcia Eterna di Belib~
-@55=~Belib il Prudente era probabilmente l'avventuriero più equipaggiato che il reame avesse mai visto, o lo sarebbe stato, visto che non ha mai lasciato la sua casa per un'avventura. Solo uno degli oggetti della sua incredibile lista di oggetti incantati trovati nei labirinti sotterranei è la Torcia Permanente. Una lanterna magica dalla forma di una elaborata torcia di legno, brucia con una fiamma arancione che non può essere spenta, sia che venga immersa nell'acqua sia che venga sepolta sotto metri di roccia, o data in testa a un troll delle paludi, la Torcia Permanente di Belib non si spegne.
+@54 = ~Torcia Eterna di Belib~
+@55 = ~Belib il Prudente era probabilmente l'avventuriero più equipaggiato che il reame avesse mai visto, o lo sarebbe stato, visto che non ha mai lasciato la sua casa per un'avventura. Solo uno degli oggetti della sua incredibile lista di oggetti incantati trovati nei labirinti sotterranei è la Torcia Permanente. Una lanterna magica dalla forma di una elaborata torcia di legno, brucia con una fiamma arancione che non può essere spenta, sia che venga immersa nell'acqua sia che venga sepolta sotto metri di roccia, o data in testa a un troll delle paludi, la Torcia Permanente di Belib non si spegne.
 
 Quando Belib terminò finalmente l'ultimo dei suoi oggetti, li mise tutti in un enorme zaino, incantato per contenere molto più di quello che Belib poteva portare normalmente, e se lo caricò sulle spalle, pronto per l'avventura di una vita. Appena Belib uscì dalla sua casa inciampò... e venne schiacciato istantaneamente sotto il suo enorme zaino. La borsa si aprì e il contenuto si sparse per le strade di Waterdeep dove Belib viveva, svanendo immediatamente nelle mani di passanti buoni a nulla.
 
@@ -294,11 +294,11 @@ STATISTICHE:
   Richiede: 5 alla Forza
   Non utilizzabile da:
    Mago~
-@56=~Fascia Avvolgente del Corvo Nero~
-@57=~Cinghia~
-@58=~Le cinghie generalmente somigliano alle cinture. A differenza delle cinture, le cinghie non vengono utilizzate per tenere su pantaloni o tute, ma per trasportare borse, foderi e cose del genere.~
-@59=~Fascia Avvolgente del Corvo Nero~
-@60=~Sembra che questa semplice striscia di cuoio dovesse essere annodata alla vita. Si dice che la Fascia del Corvo Nero sia il simbolo dei discepoli del monastero del Corvo Nero, un santuario situato nelle viscere delle Montagne del Dorso del Mondo. Secondo la tradizione, il Corvo Nero è una figura quasi mitica nelle leggende degli Uthgardt, uno spirito vendicatore dell'oltretomba emerso alla superficie molti anni fa per insegnare l'umiltà ai barbari e spezzare la loro arroganza. Descritto come un uomo dalla pelle scura con occhi ardenti e catene insanguinate che gli pendono dai polsi, il Corvo Nero è spesso protagonista di racconti delle sue lotte epiche contro schiavisti e ingiustizie per tutto il Nord e i regni meridionali. Alcuni storici ipotizzano che il Corvo Nero possa essere stato un drow o un mezzo-drow, ma altri affermano che fosse una divinità minore o una semi-divinità dedicata a porre fine a schiavitù e oppressione.
+@56 = ~Fascia Avvolgente del Corvo Nero~
+@57 = ~Cinghia~
+@58 = ~Le cinghie generalmente somigliano alle cinture. A differenza delle cinture, le cinghie non vengono utilizzate per tenere su pantaloni o tute, ma per trasportare borse, foderi e cose del genere.~
+@59 = ~Fascia Avvolgente del Corvo Nero~
+@60 = ~Sembra che questa semplice striscia di cuoio dovesse essere annodata alla vita. Si dice che la Fascia del Corvo Nero sia il simbolo dei discepoli del monastero del Corvo Nero, un santuario situato nelle viscere delle Montagne del Dorso del Mondo. Secondo la tradizione, il Corvo Nero è una figura quasi mitica nelle leggende degli Uthgardt, uno spirito vendicatore dell'oltretomba emerso alla superficie molti anni fa per insegnare l'umiltà ai barbari e spezzare la loro arroganza. Descritto come un uomo dalla pelle scura con occhi ardenti e catene insanguinate che gli pendono dai polsi, il Corvo Nero è spesso protagonista di racconti delle sue lotte epiche contro schiavisti e ingiustizie per tutto il Nord e i regni meridionali. Alcuni storici ipotizzano che il Corvo Nero possa essere stato un drow o un mezzo-drow, ma altri affermano che fosse una divinità minore o una semi-divinità dedicata a porre fine a schiavitù e oppressione.
 
 La fascia nera è fatta di seta morbidissima, forse tela di ragno, ed è portata avvolta intorno alla cintura. Aiuta il portatore a concentrarsi in combattimento, liberando la sua mente da tutte le distrazioni e indirizzando le sue energie interne alla sconfitta dei nemici. Quando viene indossata da qualsiasi classe che non sia un monaco, si slega immediatamente e cade per terra..
 
@@ -309,11 +309,11 @@ Speciale:
   Bonus di +2 per colpire con tutti gli attacchi 
   Interdizione agli Incantesimi: Immunità agli incantesimi Confusione, Regressione Mentale, Sonno, Charme, e Manto della Paura
 Peso: 0~
-@61=~Knucky del Giovane Ned~
-@62=~Collana~
-@63=~La collana è un elemento metallico ornamentale di gioielleria di solito d'argento, d'oro, di platino o di altri metalli preziosi e adornata con gemme. La collana si porta al collo e può avere qualsiasi lunghezza.~
-@64=~Knucky del Giovane Ned~
-@65=~Questo pezzo di lisca di pesce a stento riconoscibile è stato portato come portafortuna a Targos per quasi vent'anni. La storia dell'oggetto comincia con Ned, giovane marinaio di Lonelywood. Durante una delle sue spedizioni di pesca vicino a Targos, la sua barchetta si rovesciò vicino alla costa di Maer Dualdon. Ned rimase attaccato alla sua stupenda preda, una trota testafalange "incredibilmente robusta", pur essendo stato caricato da un orso affamato una volta raggiunta la costa. L'orso strappò a Ned il grosso della trota, lasciandogli solo la testa lacerata del povero pesce. Ned tornò a piedi a Targos e si tenne la testa come prova del suo incontro. Con il tempo, Ned cominciò ad attribuire la sua fortuna di marinaio al suo "lucky knucky ". Il brigante Marg il Tremante "vinse" il lucky knucky  di Ned durante una partita a carte truccata. Ned fu amareggiato dall'inganno, ma non se la sentì di affrontare Marg per recuperare il portafortuna. Successivamente, Marg usò la testa di pesce per pagarsi i rifornimenti mentre fuggiva frettolosamente da Targos. L'uomo che ricevette il pezzo di osso lo tenne per alcuni mesi prima di darlo a un amico al porto. Negli anni che seguirono, fino a oggi, il "lucky knucky " di Ned è stato barattato, vinto o venduto da più di una dozzina di persone a Targos e, una volta, a Bremen.
+@61 = ~Knucky del Giovane Ned~
+@62 = ~Collana~
+@63 = ~La collana è un elemento metallico ornamentale di gioielleria di solito d'argento, d'oro, di platino o di altri metalli preziosi e adornata con gemme. La collana si porta al collo e può avere qualsiasi lunghezza.~
+@64 = ~Knucky del Giovane Ned~
+@65 = ~Questo pezzo di lisca di pesce a stento riconoscibile è stato portato come portafortuna a Targos per quasi vent'anni. La storia dell'oggetto comincia con Ned, giovane marinaio di Lonelywood. Durante una delle sue spedizioni di pesca vicino a Targos, la sua barchetta si rovesciò vicino alla costa di Maer Dualdon. Ned rimase attaccato alla sua stupenda preda, una trota testafalange "incredibilmente robusta", pur essendo stato caricato da un orso affamato una volta raggiunta la costa. L'orso strappò a Ned il grosso della trota, lasciandogli solo la testa lacerata del povero pesce. Ned tornò a piedi a Targos e si tenne la testa come prova del suo incontro. Con il tempo, Ned cominciò ad attribuire la sua fortuna di marinaio al suo "lucky knucky ". Il brigante Marg il Tremante "vinse" il lucky knucky  di Ned durante una partita a carte truccata. Ned fu amareggiato dall'inganno, ma non se la sentì di affrontare Marg per recuperare il portafortuna. Successivamente, Marg usò la testa di pesce per pagarsi i rifornimenti mentre fuggiva frettolosamente da Targos. L'uomo che ricevette il pezzo di osso lo tenne per alcuni mesi prima di darlo a un amico al porto. Negli anni che seguirono, fino a oggi, il "lucky knucky " di Ned è stato barattato, vinto o venduto da più di una dozzina di persone a Targos e, una volta, a Bremen.
 
 STATISTICHE:
 
@@ -321,7 +321,7 @@ Fortuna: +2
 Bonus ai Tiri Salvezza: +2 su tutti i tiri salvezza
 Peso: 0 kg.~
 
-@100=~12 new items in Joluv store~
-@101=~All items are already installed~
-@102=~already installed
+@100 = ~12 new items in Joluv store~
+@101 = ~All items are already installed~
+@102 = ~already installed
 ~

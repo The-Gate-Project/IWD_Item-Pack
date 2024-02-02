@@ -48,3 +48,13 @@ v1.0: Original version by Malek Deneith from SHS
 V1.2: BG2EE compatibility and fix included by Deratiseur 
 
 V1.3: 
+
+- Metadata and Readme  
+- GW_functions  
+- Allow install all component at once or one by one  
+- Autotra  
+- Label  
+- InfinityAutoPackager   
+- Change APPEND ~tooltip.2da~  
+- xohfbtsb.itm usability monk only  
+- Language corrections  
