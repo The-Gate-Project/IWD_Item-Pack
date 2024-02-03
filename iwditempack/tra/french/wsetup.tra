@@ -25,6 +25,7 @@ PARAMETRES :
 Classe d'Armure : 5
 Poids : 40
 Force nécessaire : 8
+
 Non utilisable par :
  Druide 
  Mage 
@@ -61,14 +62,14 @@ PARAMETRES :
 Capacités de charge : 
 - Flou (comme un lanceur de sorts de niveau 3) (1 fois par jour)
 - Flèche acide de Melf (comme un lanceur de sorts de niveau 2) (1 fois par jour)
-- Sphère d'isolement d'Otiluke (comme un lanceur de sorts de niveau 7) (1 fois par jour)
+- Sphère résistante d'Otiluke (comme un lanceur de sorts de niveau 7) (1 fois par jour)
 
 Poids : 1~
 @16 = ~Flou~
 @17 = ~Flèche acide de Melf~
-@18 = ~Sphère d'isolement d'Otiluke~
+@18 = ~Sphère résistante d'Otiluke~
 @19 = ~Brise-Barriques du Shaengarne~
-@20 = ~Amulette~
+@20 = ~Hache~
 @21 = ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètre de longueur comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches. 
 
 PARAMETRES :
@@ -79,6 +80,7 @@ Poids : 7
 Facteur de vitesse : 7
 Type de compétence : hache
 Type : arme à 1 main
+
 Non utilisable par :
  Druide
  Clerc
@@ -122,6 +124,7 @@ PARAMETRES :
 CA : 1
 Poids : 70
 Force nécessaire : 15
+
 Non utilisable par :
  Barde
  Druide
@@ -225,6 +228,7 @@ Poids : 5
 Facteur de vitesse : 6
 Type de compétence : lance
 Type : arme à 2 mains
+
 Non utilisable par :
  Clerc
  Mage

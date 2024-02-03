@@ -9,6 +9,7 @@ COPY ~iwditempack/itm/xoflal03.itm~ ~override~
   SAY UNIDENTIFIED_DESC @37
   SAY NAME2 @38
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@39" END
+  WRITE_ASCII 0x58 ~CBLUN14F~ (8) // Description image
 
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 

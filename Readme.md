@@ -58,3 +58,5 @@ V1.3:
 - Change APPEND ~tooltip.2da~  
 - xohfbtsb.itm usability monk only  
 - Language corrections  
+- associate image descriptions to items  
+- Correct class restrictions for item  

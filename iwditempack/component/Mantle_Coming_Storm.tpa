@@ -11,6 +11,7 @@ COPY ~iwditempack/itm/mantlecs.itm~ ~override~
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@33" END
     OUTER_SET ability1strref = RESOLVE_STR_REF (@34)
     APPEND ~tooltip.2da~ ~mantlecs   %ability1strref%      -1         -1         ~
+  WRITE_ASCII 0x58 ~CCLCK06~ (8) // Description image
 
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 

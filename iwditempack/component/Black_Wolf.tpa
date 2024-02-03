@@ -9,6 +9,7 @@ COPY ~iwditempack/itm/bwtalis.itm~ ~override~
   SAY UNIDENTIFIED_DESC @3
   SAY NAME2 @4
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@5" END
+  WRITE_ASCII 0x58 ~CMISCB1~ (8) // Description image
   
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 
