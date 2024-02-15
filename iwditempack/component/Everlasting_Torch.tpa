@@ -5,14 +5,14 @@
 COPY ~weidu_external/%MOD_FOLDER%/bam/iclubbt.bam~ ~override~
 
 COPY ~iwditempack/itm/xoclubbt.itm~ ~override~
-  SAY NAME1 @52
-  SAY UNIDENTIFIED_DESC @53
-  SAY NAME2 @54
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@55" END
-  WRITE_ASCII 0x58 ~CBLUN12~ (8) // Description image
+	SAY NAME1 @52
+	SAY UNIDENTIFIED_DESC @53
+	SAY NAME2 @54
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@55" END
+	WRITE_ASCII 0x58 ~CBLUN12~ (8) // Description image
 
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 
 	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~xoclubbt~ flags=~identified~
-    END
+		STR_VAR item_name=~xoclubbt~ flags=~identified~
+	END

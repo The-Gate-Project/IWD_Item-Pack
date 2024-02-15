@@ -5,15 +5,15 @@
 COPY ~weidu_external/%MOD_FOLDER%/bam/iwhtash.bam~ ~override~
 
 COPY ~iwditempack/itm/whtash.itm~ ~override~
-  SAY NAME1 @41
-  SAY UNIDENTIFIED_DESC @42
-  SAY NAME2 @43
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@44" END
-  WRITE_ASCII 0x58 ~CSPER07~ (8) // Description image
+	SAY NAME1 @41
+	SAY UNIDENTIFIED_DESC @42
+	SAY NAME2 @43
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@44" END
+	WRITE_ASCII 0x58 ~CSPER07~ (8) // Description image
 
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 
 	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~whtash~ flags=~identified~
-    END
+		STR_VAR item_name=~whtash~ flags=~identified~
+	END
 	

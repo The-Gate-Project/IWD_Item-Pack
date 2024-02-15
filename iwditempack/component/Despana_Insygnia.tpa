@@ -5,19 +5,19 @@
 COPY ~weidu_external/%MOD_FOLDER%/bam/iamulhd.bam~ ~override~
 
 COPY ~iwditempack/itm/xoamulhd.itm~ ~override~
-  SAY NAME1 @12
-  SAY UNIDENTIFIED_DESC @13
-  SAY NAME2 @14
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@15" END
-    OUTER_SET ability1strref = RESOLVE_STR_REF (@16)
-    OUTER_SET ability2strref = RESOLVE_STR_REF (@17)
-    OUTER_SET ability3strref = RESOLVE_STR_REF (@18)
-    APPEND ~tooltip.2da~ ~xoamulhd   %ability1strref%   %ability2strref%   %ability3strref%         ~
-  WRITE_ASCII 0x58 ~CAMUL16~ (8) // Description image
+	SAY NAME1 @12
+	SAY UNIDENTIFIED_DESC @13
+	SAY NAME2 @14
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@15" END
+	WRITE_ASCII 0x58 ~CAMUL16~ (8) // Description image
+		OUTER_SET ability1strref = RESOLVE_STR_REF (@16)
+		OUTER_SET ability2strref = RESOLVE_STR_REF (@17)
+		OUTER_SET ability3strref = RESOLVE_STR_REF (@18)
+	APPEND ~tooltip.2da~ ~xoamulhd   %ability1strref%   %ability2strref%   %ability3strref%         ~ UNLESS ~xoamulhd~
   
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 
 	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~xoamulhd~ flags=~identified~
-    END
+		STR_VAR item_name=~xoamulhd~ flags=~identified~
+	END
 	

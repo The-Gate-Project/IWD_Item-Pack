@@ -5,16 +5,16 @@
 COPY ~weidu_external/%MOD_FOLDER%/bam/ispernp.bam~ ~override~
 
 COPY ~iwditempack/itm/xohrsrnp.itm~ ~override~
-  SAY NAME1 @46
-  SAY UNIDENTIFIED_DESC @47
-  SAY NAME2 @48
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@49" END
-    OUTER_SET ability2strref = RESOLVE_STR_REF (@50)
-    APPEND ~tooltip.2da~ ~xohrsrnp      -1   %ability2strref%         -1         ~
-  WRITE_ASCII 0x58 ~CSPER03~ (8) // Description image
+	SAY NAME1 @46
+	SAY UNIDENTIFIED_DESC @47
+	SAY NAME2 @48
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@49" END
+	WRITE_ASCII 0x58 ~CSPER03~ (8) // Description image
+		OUTER_SET ability2strref = RESOLVE_STR_REF (@50)
+	APPEND ~tooltip.2da~ ~xohrsrnp      -1   %ability2strref%         -1         ~ UNLESS ~xohrsrnp~
 
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 
 	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~xohrsrnp~ flags=~identified~
-    END
+		STR_VAR item_name=~xohrsrnp~ flags=~identified~
+	END

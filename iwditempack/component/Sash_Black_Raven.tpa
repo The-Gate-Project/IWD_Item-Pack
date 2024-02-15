@@ -5,14 +5,14 @@
 COPY ~weidu_external/%MOD_FOLDER%/bam/ibeltsb.bam~ ~override~
 
 COPY ~iwditempack/itm/xohfbtsb.itm~ ~override~
-  SAY NAME1 @57
-  SAY UNIDENTIFIED_DESC @58
-  SAY NAME2 @59
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@60" END
-  WRITE_ASCII 0x58 ~CBELT02~ (8) // Description image
+	SAY NAME1 @57
+	SAY UNIDENTIFIED_DESC @58
+	SAY NAME2 @59
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@60" END
+	WRITE_ASCII 0x58 ~CBELT02~ (8) // Description image
 
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 
 	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~xohfbtsb~ flags=~identified~
-    END
+		STR_VAR item_name=~xohfbtsb~ flags=~identified~
+	END

@@ -5,17 +5,17 @@
 COPY ~weidu_external/%MOD_FOLDER%/bam/imantlec.bam~ ~override~
 
 COPY ~iwditempack/itm/mantlecs.itm~ ~override~
-  SAY NAME1 @30
-  SAY UNIDENTIFIED_DESC @31
-  SAY NAME2 @32
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@33" END
-    OUTER_SET ability1strref = RESOLVE_STR_REF (@34)
-    APPEND ~tooltip.2da~ ~mantlecs   %ability1strref%      -1         -1         ~
-  WRITE_ASCII 0x58 ~CCLCK06~ (8) // Description image
+	  SAY NAME1 @30
+	  SAY UNIDENTIFIED_DESC @31
+	  SAY NAME2 @32
+	  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@33" END
+	WRITE_ASCII 0x58 ~CCLCK06~ (8) // Description image
+		OUTER_SET ability1strref = RESOLVE_STR_REF (@34)
+	APPEND ~tooltip.2da~ ~mantlecs   %ability1strref%      -1         -1         ~ UNLESS ~mantlecs~
 
 COPY_EXISTING ~wmart1.sto~ ~override~  // add item to Joluv shop
 
 	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~mantlecs~ flags=~identified~
-    END
+		STR_VAR item_name=~mantlecs~ flags=~identified~
+	END
 	
