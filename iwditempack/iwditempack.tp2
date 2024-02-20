@@ -50,7 +50,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 		END
 	END
 END ELSE BEGIN  // If game not EE add Bam without change
-	COPY ~weidu_external/%MOD_FOLDER%/bam~ ~override~
+	COPY ~%MOD_FOLDER%/bam~ ~weidu_external/%MOD_FOLDER%/bam~
 END
 
 INCLUDE ~%MOD_FOLDER%/lib/gw_functions.tpa~
